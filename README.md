@@ -6,6 +6,18 @@ This oscillatory field behaves as ultra-light dark matter while modifying the gr
 
 TCWT is constructed within **DHOST Class I**, the only surviving branch of scalar–tensor gravity compatible with the GW170817 constraint on the speed of gravitational waves.
 
+Creation vs. Emergence: The TCWT Shift
+Feature	Standard Big Bang (
+CDM)	TCWT (TimeWave Theory)
+Origin of Time	Time begins at 
+ (The Singularity).	Eternal Oscillation: The TimeWave has no beginning.
+The "Big Bang"	A point of infinite density and heat.	A High-Tension Expansion Event in the wave.
+Dark Matter	Cold, inert particles (WIMPs).	Coherent Ripples: High-frequency oscillations.
+Black Holes	Dead-ends/Holes in spacetime.	Knots: Tightly wound, finite wave-structures.
+The Universe	The "Everything" that began 13.8bn years ago.	A "Chestnut": One of many bubbles on the wave.
+Future Fate	Heat Death or Big Rip.	Relaxation: The knot unwinds back into the field.
+Information	Potential loss in Black Holes.	Phase-Memory: Always preserved in the wave.
+
 This repository provides:
 - The theoretical foundations of TCWT  
 - A Vainshtein screening mechanism ensuring local viability  
