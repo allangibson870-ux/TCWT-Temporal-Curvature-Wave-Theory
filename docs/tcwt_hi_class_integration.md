@@ -4,6 +4,17 @@ This document explains how to add the TimeWave (TCWT) scalar–tensor model
 to hi_class by defining the Horndeski/DHOST functions G2, G3, G4 and the
 Class I degeneracy function F.
 
+### TCWT Eternal TimeWave – Key Parameters
+
+| Variable            | Value  | Physical Interpretation in TCWT                                                |
+|---------------------|--------|-------------------------------------------------------------------------------|
+| `phi_initial`       | 1e-2   | **Initial Phase:** Local displacement of the TimeWave when our universe (chestnut) is sampled. |
+| `phi_prime_initial` | 1e-5   | **Ambient Velocity:** Pre-existing oscillatory energy; the cosmic “clock” is already ticking. |
+| `H0`                | 67.4   | **Hubble Constant:** Sets the expansion rate, here chosen to match Planck 2018. |
+| `omega_cdm`         | 0.1200 | **TimeWave Density:** Effective dark-matter density sourced by high-frequency TimeWave oscillations. |
+| `gravity_model`     | tcwt   | **Action Selection:** Uses the TCWT DHOST/Beyond-Horndeski sector. |
+| `method_linear_perts` | x_functions | **Vainshtein Logic:** Enables derivative-based screening and controlled breaking. |
+
 ## 1. Add TCWT to gravity.h
 
 In include/gravity.h:
