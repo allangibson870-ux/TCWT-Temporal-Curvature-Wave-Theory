@@ -20,6 +20,11 @@ In TCWT, the TimeWave is the primary reality. It is an eternal, beginningless os
 | **Future Fate** | Heat Death or Big Rip. | **Relaxation:** The knot unwinds back into the field. |
 | **Information** | Potential loss in Black Holes. | **Phase-Memory:** Always preserved in the wave. |
 
+🌊 The "String and the Knot" Ontology
+TCWT is not merely a mathematical modification of General Relativity; it is a shift in how we define the fundamental carrier of reality.
+The String (The TimeWave): An eternal, infinite oscillation. It is the "carrier signal" of the multiverse.
+The Knot (The Universe/Chestnut): Our Universe is a localized, high-frequency "knot" tied into this string. The "Big Bang" was the initial Nucleation Event, and "Spacetime" is the mechanical process of this knot unravelling.
+The Seed (Heredity): As the TimeWave flows, it carries "topological scars" or orphaned micro-knots (Black Holes) from previous "upstream" universes. These remnants act as the Dark Matter for our current bubble, providing a gravitational "memory" of what came before.
 
 
 This repository provides:
