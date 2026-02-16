@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite it as below."
+authors:
+  - family-names: "Gibson"
+    given-names: "Allan"
+    orcid: "https://orcid.org/0000-0000-0000-0000" # Add your ORCID if you have one
+title: "TCWT: Temporal Curvature Wave Theory"
+version: 1.0.0
+date-released: 2026-02-16
+url: "
