@@ -16,3 +16,4 @@ To run a diagnostic script from the root:
 ```bash
 python3 project_contents/scripts/plot_tcwt.py
 
+## Results
