@@ -6,9 +6,9 @@ This repository contains the numerical implementation and diagnostic tools for t
 
 ### Directory Contents
 - **/project_contents**: Contains all core code, including:
-  - `configs/`: Selection of `.ini` files (e.g., `tcwt_stabilized_squeeze.ini`).
+  - `configs/`: Selection of .ini files (e.g., tcwt_stabilized_squeeze.ini).
   - `plots/`: Key result images and visualizations.
-  - `scripts/`: Over 70 diagnostic tools (e.g., `plot_tcwt.py`).
+  - `scripts/`: Over 70 diagnostic tools (e.g., plot_tcwt.py).
 
 ## Quick Start
 To run a diagnostic script from the root:
