@@ -10,3 +10,4 @@ To run a diagnostic script:
 ```bash
 python3 project_contents/scripts/plot_tcwt.py
 ```
+ 
