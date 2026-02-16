@@ -1,6 +1,5 @@
 # TCWT: Temporal Curvature Wave Theory
-
-**Scalar-tensor K-essence model where time is a coherent oscillation behaving as dark matter.**
+Scalar-tensor K-essence model where time is a coherent oscillation behaving as dark matter.
 
 ## Project Overview
 This repository contains the numerical implementation and diagnostic tools for the Temporal Curvature Wave Theory, built upon the hi_class/CLASS framework.
@@ -16,5 +15,3 @@ To run a diagnostic script from the root:
 ```bash
 python3 project_contents/scripts/plot_tcwt.py
 
-## Results
-## Results
