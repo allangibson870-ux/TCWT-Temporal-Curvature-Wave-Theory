@@ -12,6 +12,9 @@ This repository contains the numerical implementation and diagnostic tools for t
 
 ## Quick Start
 To run a diagnostic script from the root:
-```bash
+\`\`\`bash
 python3 project_contents/scripts/plot_tcwt.py
+\`\`\`
 
+## Results
+![Final Squeeze Plot](project_contents/plots/final_squeeze_plot.png)
