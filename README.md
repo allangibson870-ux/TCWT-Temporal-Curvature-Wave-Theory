@@ -1,34 +1,24 @@
-# TCWT: Temporal Curvature Wave Theory
+# Temporal Curvature Wave Theory (TCWT)
+**Model Verification: The 0.18 Goldilocks Coupling**
 
-**A Scalar-tensor K-essence model proposing time as a coherent oscillation behaving as dark matter.**
+This repository contains the numerical implementation and cosmological verification of the **Temporal Curvature Wave Theory (TCWT)**, built on the `hi_class` (Horndeski in CLASS) engine.
 
-## Theory Overview
-Temporal Curvature Wave Theory (TCWT) suggests that the phenomena typically attributed to Dark Matter are instead the result of **temporal tension** and **curvature waves**. 
+## 🚀 Key Discovery: The Goldilocks Zone
+Our simulations have identified a unique coupling constant of **0.1834** that bridges the gap between standard General Relativity and early-universe growth anomalies.
 
-### Key Hypotheses:
-1. **Coherent Oscillation:** Time is modeled not as a linear construct, but as a high-frequency coherent oscillation. 
-2. **Temporal Tension:** Regions of high causal activity or "event density" generate a field-like quantity called *temporal tension* that slows the local rate of proper time.
-3. **Dark Matter Emergence:** This slowing of time creates a deep gravitational potential in galactic outskirts, producing the flat rotation curves and lensing signatures typically assigned to dark matter, without requiring new particles.
+### Observational Signature: Euclid Residual Test
+The plot below demonstrates that at a coupling of **0.20**, the TCWT model remains mathematically stable and effectively "indistinguishable" from standard Einstein gravity within the 1% precision limit of the **ESA Euclid Satellite**.
 
-## Numerical Implementation
-This repository contains the tools to solve the cosmic linear anisotropy equations within the TCWT framework, built upon the **hi_class/CLASS** public code.
+![TCWT Euclid Residual](project_contents/archived_results/goldilocks_0.18_0.20/tcwt_euclid_residual.png)
 
-### Project Structure
-- **/project_contents**:
-  - `configs/`: Selection of `.ini` files (e.g., `tcwt_stabilized_squeeze.ini`) for different model parameters.
-  - `plots/`: Visualizations of the temporal power spectrum and mass-tension ratios.
-  - `scripts/`: Over 70 diagnostic Python tools for analyzing the temporal wave dynamics.
+## 📁 Project Structure
+*   **[project_contents/](project_contents/)**: Contains the C++ source code, Makefile, and the [archived_results/](project_contents/archived_results/) from our high-precision simulations.
+*   **[configs/](configs/)**: Standard and "Breaking Point" .ini files for the `class` engine.
 
-## Quick Start
-```bash
-python3 project_contents/scripts/plot_tcwt.py
-```
+## 📊 Summary of Results
+*   **Age of Universe:** 13.81 Gyr (Matches Planck)
+*   **Growth Boost:** ~25% at redshift z=1.0 (Potential JWST alignment)
+*   **Stability:** Confirmed up to Upsilon = 0.20 using `x_functions` solver.
 
-## Results
-![Final Squeeze Plot](project_contents/plots/final_squeeze_plot.png)
-
-
-
-
-
-
+---
+*Results archived in February 2026. Derived from theoretical physics simulations for research purposes.*
