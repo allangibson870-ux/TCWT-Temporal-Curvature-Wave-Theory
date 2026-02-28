@@ -1,0 +1,5 @@
+LOG: Feb 28, 2026 - The Gentle Bend Success
+------------------------------------------
+- Successfully modeled the 'Taper' (Knot State decaying back to Hum).
+- Discovered 'Residual Hum' is required to drive the late-time Gentle Bend.
+- Interpretation: Early expansion pulses are timewave 'ringing' in galaxy clusters.
