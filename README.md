@@ -18,7 +18,7 @@ Recent data from **DESI (2024–2026)** suggests that Dark Energy is dynamical. 
 *   The Temporal Knot "relaxes," releasing pulses into the expansion rate ($H$).
 *   Matches the **3–5% oscillations** seen in 2026 Hubble reconstructions.
 
-![TCWT Master Plot](Phase_Data/research_phases/tcwt_repo_master_final.png)
+![TCWT Master Plot](Phase_Data/Phase_Data/research_phases/tcwt_repo_master_final.png)
 
 ---
 
