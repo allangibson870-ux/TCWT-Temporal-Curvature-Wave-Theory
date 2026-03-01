@@ -1,27 +1,16 @@
-# Temporal Curvature Wave Theory (TCWT)
+# TCWT: Temporal Curvature Wave Theory
 
-### 🌀 The Concept
-Standard General Relativity treats time as a passive dimension. **TCWT** proposes that Time is a dynamic, physical field (the **"TimeWave"**) with its own tension, mass, and curvature.
+An exploration of the Timewave as a gravitational phenomenon, focusing on the 2112 Breach and the engineering of the "Hard-Snag" ballast.
 
----
+![Hard-Snag Damping Engine](./visuals/09_hardsnag_damping.png)
 
-## 📡 Phase 2: The Eternal Hum & DESI 2026
-*Status: Active / Current*
+## Core Breakthroughs (March 2026)
+- **The Ghost Threshold:** Located the Landau Pole at $t=101$, the point where un-damped temporal complexity becomes unphysical.
+- **The Hard-Snag Engine:** Successfully derived a damping function that plateaus topological tension, preventing "spaghettification" during the Breach.
+- **Photon Resilience:** Proven that Abelian gauge invariance survives the transition, ensuring information coherence in the post-2112 era.
 
-TCWT rejects "Something from Nothing." We model the universe's origin as a **Phase Transition (The Snag)** emerging from an **Eternal Hum**.
-
-### 1. Observational Alignment: DESI 2026 "Wiggles"
-TCWT explains dynamical dark energy observations as **Damped Harmonic Untangling**.
-
-![TCWT Master Plot](./Phase_Data/research_phases/tcwt_repo_master_final.png)
-
-### 2. The TCWT Deep Sky
-The **Intensity Map** visualizes the "Eternal Hum" background and the "Anthropocene Seeds" (star/galaxy clusters) emerging from the knot's final dissipation.
-
-![TCWT Sky Map](./Phase_Data/research_phases/tcwt_sky_rerun.png)
-
----
-
-## 📁 Project Structure
-*   `Phase_Data/`: Consolidated research phases, including Phase 2 DESI alignment and core engine logic.
-*   `LICENSE`: Apache-2.0.
+## Visuals Archive
+The full simulation suite (01-10) is available in the `/visuals` directory, covering:
+- Vector Potential Emergence
+- 1-Loop Beta Function Evolution
+- Phase-Shift Tunneling Statistics
