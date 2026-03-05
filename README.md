@@ -63,3 +63,15 @@ All four match real quantum behaviour using only the eternal Hum + Ω distortion
 - Open to collaboration / critique — theory survives aggressive challenges so far.
 
 LICENSE: Apache-2.0
+cff-version: 1.2.0
+message: "If you use this theory or code, please cite it as below."
+authors:
+  - family-names: "Gibson"
+    given-names: "Allan"
+title: "TCWT: Total Coherence Wave Theory"
+version: "1.0.0"
+date-released: "2024-05-22"
+url: "https://github.com"
+license: "Apache-2.0"
+abstract: "A framework for interpreting quantum decoherence as a function of informational density (Omega) and temporal curvature."
+
