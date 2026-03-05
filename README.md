@@ -31,6 +31,31 @@
 ## Simulations & Visuals
 - Lattice sims probing vector emergence, beta-function running, photon resilience.
 - Plots: emergent striations, coupling profiles (flat pre-Breach, soft step or plateau post), photon energy density near-constant across 2112 boundary.
+## Quantum Tests Suite – TCWT Validation
+
+TCWT explains quantum phenomena (interference, non-locality, decoherence) as resonance vs. stiffening states of the eternal temporal manifold — controlled by local distortion Ω = M + K_tc·v.
+
+No external QM rules are added; all effects emerge from the same wave + distortion mechanism used for cosmology and gravity.
+
+### Four Core Tests
+
+<img width="599" height="194" alt="image" src="https://github.com/user-attachments/assets/ffc25b42-81e8-4216-9a8b-2287898df2dc" />
+
+
+
+**Top-left**: Delayed-Choice Quantum Eraser  
+Raw signal = wash (high Ω). Post-selection (reduced Ω) restores fringes.
+
+**Top-right**: Weak Measurement  
+Smooth trade-off: higher measurement strength (Ω) → higher path knowledge (D) → lower fringe visibility (V). D² + V² ≤ 1 holds naturally.
+
+**Bottom-left**: Macroscopic Superposition (Schrödinger Cat)  
+Internal degrees of freedom cause rapid Ω spike → visibility collapses in microseconds. Explains absence of cat superpositions.
+
+**Bottom-right**: Gravitational Decoherence  
+Path-dependent proper time in curved spacetime → phase divergence → high local Ω → interference suppression even in vacuum.
+
+All four match real quantum behaviour using only the eternal Hum + Ω distortion.
 
 ## Status & Next
 - Evolving rapidly via simulation stress-testing.
