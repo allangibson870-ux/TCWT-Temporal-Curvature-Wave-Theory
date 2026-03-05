@@ -1,4 +1,4 @@
-# TCWT — Temporal Curvature Wave Theory
+# TCWT-Total-Coherence-Wave-Theory
 
 **Scalar–tensor K-essence model where time is a coherent, physical oscillation behaving as dark matter**
 
