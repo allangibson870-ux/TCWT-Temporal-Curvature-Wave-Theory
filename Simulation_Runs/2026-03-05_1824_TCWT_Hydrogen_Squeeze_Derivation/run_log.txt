@@ -1,0 +1,7 @@
+Squeeze pressure inside knot: 2.4219e+20 Pa
+Gravitational leakage pressure at Bohr radius: 5.6204e-31 Pa
+Leakage ratio r: 2.3207e-51
+1/r (order): 4.31e+50
+Derived κ from hydrogen squeeze: 1.688
+Plot saved to: /mnt/c/Users/allan/Downloads/2026-03-05_1824_TCWT_Hydrogen_Squeeze_Derivation/$PNG_NAME
+Derived κ = 1.688 (used in non-commuting phase term)

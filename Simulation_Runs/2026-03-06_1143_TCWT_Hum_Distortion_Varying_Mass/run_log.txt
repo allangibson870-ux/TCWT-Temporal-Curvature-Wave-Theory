@@ -1,0 +1,7 @@
+Plot saved to: /mnt/c/Users/allan/Downloads/2026-03-06_1143_TCWT_Hum_Distortion_Varying_Mass/$PNG_NAME
+Hum amplitudes at surface:
+  Proton      : 1.000e+00
+  Human       : 1.000e+00
+  Earth       : 1.000e+00
+  Sun         : 1.000e+00
+  Black Hole  : 0.000e+00
