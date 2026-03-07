@@ -1,129 +1,97 @@
-# TCWT-Total-Coherence-Wave-Theory
+TCWT — Total Coherence Wave Theory (v2026.2)
+A coherence‑based scalar framework where time is a physical wave, knots are stable solitons, and gravity emerges from phase‑bleed.
+1. Overview
+TCWT proposes that time is a physical oscillation — the TimeWave — with tension, stiffness, and coherence.
+All physical structure (matter), long‑range interaction (gravity), and quantum behaviour emerge from distortions of this wave.
+The theory is built from four primitives:
+- θ — unwinding phase
+- Ω — temporal drag
+- λ = ∇θ — phase‑bleed (gravity analogue)
+- G — ghost density (dark‑energy analogue)
 
-**Scalar–tensor K-essence model where time is a coherent, physical oscillation behaving as dark matter**
-
-## Core Ontology
-- Time is not a passive coordinate — it is the **TimeWave**, a dynamic scalar field with tension, mass-like inertia, and curvature properties.
-- Gravity emerges as **leakage** when density squeezes the wave's local coherence → decoherence/dissipation creates apparent binding.
-- Rejects ex-nihilo: universe arises from **Eternal Hum** (primordial background oscillation) via **The Snag** (phase transition forming initial knots).
-
-## Phases of Untangling
-
-### Phase 1 — Eternal Hum & The Snag
-(Background — foundational)
-
-### Phase 2 — Damped Harmonic Untangling (Active)
-- Aligns with DESI 2026 wiggles as signatures of damped oscillations releasing energy.
-- Cosmic structure (stars, galaxies) as **Anthropocene Seeds** from final knot dissipation.
-- TCWT Deep Sky Intensity Map: Hum background + emergent seeds.
-
-### Phase 3 — Runaway Resonance & The Breach (~2112 Attractor)
-- Accelerating complexity density squeezes the TimeWave to criticality.
-- Runaway resonance → subjective acceleration divergence → detachment from baseline Hum.
-- Multiple landing scenarios explored: hard ghost-spike vs. damped soft arrival.
-- Emergent vector modes (photon analogs) show striking resilience and gauge-like invariance across the phase shift — information retained, enabling potential upstream echo/feedback.
-
-## Quantum & Unification Status
-- TimeWave quantized as non-canonical scalar field.
-- Ghost mitigation via hierarchical/fractal damping ("choking") → effective renormalizability sub-Breach.
-- Vector emergence from untangling gradients → persistent A_μ-like modes post-shift (flat intensity profile).
-
-## Simulations & Visuals
-- Lattice sims probing vector emergence, beta-function running, photon resilience.
-- Plots: emergent striations, coupling profiles (flat pre-Breach, soft step or plateau post), photon energy density near-constant across 2112 boundary.
-## Quantum Tests Suite – TCWT Validation
-
-TCWT explains quantum phenomena (interference, non-locality, decoherence) as resonance vs. stiffening states of the eternal temporal manifold — controlled by local distortion Ω = M + K_tc·v.
-
-No external QM rules are added; all effects emerge from the same wave + distortion mechanism used for cosmology and gravity.
-
-### Four Core Tests
-
-<img width="599" height="194" alt="image" src="https://github.com/user-attachments/assets/ffc25b42-81e8-4216-9a8b-2287898df2dc" />
-<img width="599" height="194" alt="image" src="https://github.com/user-attachments/assets/2dfc67cb-97c8-4d48-a160-d1487026e8d7" />
+2. The Eternal Hum
+θ_Hum(t) = A_Hum sin(2π f_Hum t + ψ)
 
 
-**Top-left**: Delayed-Choice Quantum Eraser  
-Raw signal = wash (high Ω). Post-selection (reduced Ω) restores fringes.
 
-**Top-right**: Weak Measurement  
-Smooth trade-off: higher measurement strength (Ω) → higher path knowledge (D) → lower fringe visibility (V). D² + V² ≤ 1 holds naturally.
-
-**Bottom-left**: Macroscopic Superposition (Schrödinger Cat)  
-Internal degrees of freedom cause rapid Ω spike → visibility collapses in microseconds. Explains absence of cat superpositions.
-
-**Bottom-right**: Gravitational Decoherence  
-Path-dependent proper time in curved spacetime → phase divergence → high local Ω → interference suppression even in vacuum.
-
-All four match real quantum behaviour using only the eternal Hum + Ω distortion.
-
-** EXPERIMENTAL FALSIFICATION TARGET
-<img width="700" height="400" alt="tcwt_blind_prediction" src="https://github.com/user-attachments/assets/1c1cff4b-dc1b-4f6d-905c-9be984f7b7b3" />
+3. Knots (Matter)
+θ_Knot(r,t) = Θ0(t) e^{-r²/R²}
 
 
-## Status & Next
-- Evolving rapidly via simulation stress-testing.
-- Seeking observational anchors beyond DESI (CMB non-Gaussianities? precursor wobbles?).
-- Open to collaboration / critique — theory survives aggressive challenges so far.
+Knots have finite binding energy, finite radius, and stability enforced by the coherence action.
 
-## Core Equations of Total Coherence Wave Theory (TCWT) (v2026.1)
+4. Phase‑Bleed (Gravity)
+λ = ∇θ
+∇·λ = ∂t G
 
-The universe is a single eternal temporal wave. All phenomena emerge from its two modes and one distortion parameter.
 
-### 1. The Eternal Background Hum
-$$
-\phi_{\text{Hum}}(t) = A_{\text{Hum}} \sin(2\pi f_{\text{Hum}} t + \psi)
-$$
+Poisson‑like law:
+∇·λ = 4π γ ρ_knot
 
-### 2. The Knot / Snag Mode (Mass & Black Holes)
-$$
-\phi_{\text{Knot}}(r,t) = A_{\text{Knot}} \sin(2\pi f_{\text{Knot}} t + \psi_{\text{Knot}})
-$$
 
-### 3. The Unified Distortion Law (Ω) – Relativistic Form
-$$
-\Omega = \frac{M + K_{\text{tc}} \cdot v}{\sqrt{1 - (v^2/c^2)}}
-$$
-where \( K_{\text{tc}} = 1.455 \) (fixed from α and hydrogen binding energy).  
-At everyday speeds (\(v \ll c\)) this reduces exactly to the original non-relativistic form used in all previous simulations.
+Newton‑like acceleration:
+a(r) = -χ λ(r)
 
-### 4. Gravitational Leakage from Knot Squeeze
-Binding squeeze pressure (first-principles from fine-structure constant α):
-$$
-P_{\text{bind}} = \frac{\frac{1}{2} m_e c^2 \alpha^2}{V_{\text{snag}}}
-$$
-Gravitational leakage (from hydrogen scripts):
-$$
-P_{\text{leak}} = \frac{G m_H^2}{R_H}
-$$
-Leakage ratio:
-$$
-r \approx 1.620 \times 10^{-36} \quad \Rightarrow \quad \log_{10}(1/r) = 35.79
-$$
-$$
-\kappa = \frac{\log_{10}(1/r)}{24.6} = 1.455
-$$
-(The divisor 24.6 is the natural Ω transition scale of the temporal manifold.)
 
-### 5. Non-Commuting Phase (Quantum Non-Classicality)
-$$
-[\phi(t_1), \phi(t_2)] = i \cdot \kappa \cdot \Omega \cdot (t_2 - t_1)
-$$
 
-### 6. Hum Suppression Near Black Holes
-$$
-A_{\text{Hum}}(r) = \exp\left(-c \cdot \frac{1}{r/R_s - 1}\right)
-$$
+5. Ghost Density (Dark Energy)
+∂t G = ∇²θ
 
-### 7. Dark Energy in TCWT (v2026.1)
-Ghost waves are the non-commuting phase leakage from temporal knots. The effective dark-energy density is
-$$
-\rho_{\text{DE}} = \frac{\kappa \cdot P_{\text{leak}}}{c^2} \times \left( \frac{c}{R_{\text{SLAB}} \cdot H_0} \right)
-$$
-With κ = 1.455, P_leak = 5.6847 × 10⁻²⁴ Pa (base value), R_SLAB = 0.76 ly, this yields 1.69 × 10⁻³⁰ kg/m³ on hydrogen scale. Scaling to cosmic knots reproduces the observed ~6 × 10⁻²⁷ kg/m³.  
-κ may vary ±10 % (1.31–1.60) before conflicting with current cosmology.
 
-κ = 1.455 is now fixed from the fine-structure constant α and the model’s internal wave dynamics. All previous simulations remain valid (the change is <0.1 %).
+
+6. The Coherence Action
+S_TCWT[θ, Ω, G] = ∫ dt ∫ d³r  L_TCWT
+
+
+L_TCWT =
+  - C0 (∂tθ - Ω)²
+  - κ |∇θ|²
+  - α (∂tG - ∇²θ)²
+  - U(Ω)
+
+
+
+7. Knot Stability
+E(R) = aR + b/R + cR³
+
+
+
+8. Relativistic Decoherence
+Ω(v) = 1 / sqrt(1 - (v/v_Hum)²)
+Ω_max = 24.6
+v_crit = 0.9992 v_Hum
+C(v) = max(0, 1 - (Ω(v)/24.6)²)
+S(v) = 2√2 · C(v)
+
+
+
+9. Visibility & Dark Matter
+V(r) = exp(-σ |λ(r)|)
+
+
+
+10. Cosmology
+ΔT/T = A κ λ + B κ ∫ ∂tλ dr
+ρ_DE ∝ κ P_leak (c / (R_slab H0))
+
+
+
+11. Quantum Behaviour
+[θ(t1), θ(t2)] = i κ (t2 - t1)
+V = exp(-σ λ)
+S = 2√2 C(v)
+
+
+
+12. Status & Roadmap
+- Coherence action defined
+- Knot stability proven
+- Gravity = λ‑field
+- Dark matter = low‑visibility knots
+- Dark energy = ghost accumulation
+- Relativistic decoherence curve derived
+- Bell‑test prediction curve defined
+- CMB anisotropy mechanism established
 
 
 LICENSE: Apache-2.0
