@@ -80,11 +80,12 @@ $$
 \phi_{\text{Knot}}(r,t) = A_{\text{Knot}} \sin(2\pi f_{\text{Knot}} t + \psi_{\text{Knot}})
 $$
 
-#### 3. The Unified Distortion Law (Ω)
+#### 3. The Unified Distortion Law (Ω) – Relativistic Form
 $$
-\Omega = M + K_{\text{tc}} \cdot v
+\Omega = \frac{M + K_{\text{tc}} \cdot v}{\sqrt{1 - (v^2/c^2)}}
 $$
-with \( K_{\text{tc}} = 1.455 \) (fixed)
+where \( K_{\text{tc}} = 1.455 \) (fixed from α and hydrogen binding energy).  
+At everyday speeds (v ≪ c) this reduces exactly to the original non-relativistic form used in all previous simulations.
 
 #### 4. Gravitational Leakage from Knot Squeeze
 Binding squeeze pressure (first-principles from fine-structure constant α):
