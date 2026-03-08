@@ -85,13 +85,19 @@ This reproduces TCWT relations such as:
 
 ### 3.3 Ghost Density and Dark Energy
 
-Ghost density G behaves like a dark-energy field with a shallow potential:
+## Visibility Suppression (fully internal derivation)
 
-\[
-V_G(G) = \Lambda_G + \frac{1}{2} m_G^2 G^2
-\]
+$$
+V(r) = \exp(-\sigma |\lambda(r)|)
+$$
 
-This allows slow-roll or accumulation behaviour consistent with TCWT’s ghost-density dynamics.
+σ is derived from the requirement that visibility drops to 1/e exactly when the phase gradient reaches the transition value:
+
+$$
+\sigma = \frac{1}{|\lambda|_{\text{transition}}} = \frac{1}{g} = \frac{1}{\kappa \times 2\pi f_{\text{Hum}} / c} \approx 6.58 \times 10^{-36} \, \text{m/rad}
+$$
+
+This ties visibility loss directly to the same transition scale that defines quantum-to-classical behaviour.
 
 ---
 
