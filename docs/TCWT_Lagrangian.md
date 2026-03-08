@@ -58,13 +58,7 @@ $\mathcal{L} = C_0 (\partial_t \theta - \Omega)^2 + \kappa |\nabla \theta|^2 + \
 
 Ω is a dynamical auxiliary field whose value is enforced variationally by the constraint term in the action, reproducing the relativistic drag law and natural upper bound Ω_max ≈ 16.91.
 
-This captures:
 
-- coherence loss at high Ω  
-- the brittle limit at \( \Omega_{\max} = 24.6 \)  
-- velocity‑dependent decoherence (via Ω(v))
-
----
 
 ### 3.2 Phase-Bleed and Gravity Analogue
 
