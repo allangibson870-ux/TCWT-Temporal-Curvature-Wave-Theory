@@ -114,21 +114,13 @@ NASA AWE (Mesospheric Waves) | Waves fully explained by fluid dynamics and buoya
 
 ### TCWT Orbital Mechanics (v2026.2)
 
-Gravity emerges as phase-bleed acceleration:
+**Phase-to-acceleration coupling χ** (internal from knot squeeze):
 
 $$
-\mathbf{a}(r) = -\chi \nabla\theta(r)
+\chi = \frac{3 E_{\text{knot}}}{m_{\text{H}} \times \Omega_{\text{transition}}} \approx 1.10 \times 10^{-63} \, \text{m}^2/\text{s}^2
 $$
 
-For circular orbits:
-
-$$
-\frac{v^2}{r} = \chi \left| \frac{d\theta}{dr} \right|
-$$
-
-$$
-\boxed{ \frac{d\theta}{dr} = \frac{v^2}{\chi r} }
-$$
+This tiny value ensures gravity is a weak residual effect from knot squeeze leakage.
 
 **Phase-to-acceleration coupling**:
 
