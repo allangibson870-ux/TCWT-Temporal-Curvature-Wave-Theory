@@ -107,13 +107,15 @@ This bounds distortion at extreme regimes without external constants — prevent
 - Bell‑test prediction curve defined
 - CMB anisotropy mechanism established
 
-## TCWT vs GR — 2026 Scientific Tests
+TCWT vs GR — 2026 Scientific Tests
 
-Test Area,GR Expectation,TCWT Expectation (updated with orbital phase accumulation),What Would Falsify TCWT
-NIST Optical Clocks,Smooth gravitational redshift; no residuals at 10⁻¹⁹ stability.,Tiny configuration- and path-dependent residuals due to Ω-drag and logarithmic phase accumulation; frequency-dependent phase behaviour; coherence-cliff near Ω → Ω_max.,No residuals beyond GR across all configurations and frequencies.
-JWST Early Chemistry,Abundances explained by stellar evolution and nucleosynthesis.,Apparent “impossible” abundances caused by visibility distortions (V = exp(−σ λ)); logarithmic phase bleed could mimic abundance gradients across early galaxies.,Perfect match to standard stellar + nucleosynthesis models with no residual visibility effects.
-GRACE-FO Gravity Mapping,"Gravity anomalies track mass redistribution (ice, mantle flow).","λ-field anomalies from Ω and G, not mass alone; logarithmic phase accumulation produces dark-matter-like anomalies at large scales; possible phase-lags.",Perfect mass–gravity correlation after improved Earth models.
-NASA AWE (Mesospheric Waves),Waves fully explained by fluid dynamics and buoyancy.,Coherence patterns tied to θ oscillation; preferred frequencies; λ-dependent anisotropies in propagation with logarithmic scaling at larger heights.,All wave statistics match atmospheric models with no residual coherence structure.
+Test Area                  | GR Expectation                                                                 | TCWT Expectation (updated)                                                                                          | What Would Falsify TCWT
+---------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-------------------------
+NIST Optical Clocks        | Smooth gravitational redshift; no residuals at 10⁻¹⁹ stability.               | Tiny configuration- and path-dependent residuals due to Ω-drag and logarithmic phase accumulation; frequency-dependent phase behaviour; coherence-cliff near Ω → Ω_max. | No residuals beyond GR across all configurations and frequencies.
+JWST Early Chemistry       | Abundances explained by stellar evolution and nucleosynthesis.                | Apparent “impossible” abundances caused by visibility distortions (V = exp(−σ λ)); logarithmic phase bleed could mimic abundance gradients. | Perfect match to standard stellar + nucleosynthesis models with no residual visibility effects.
+GRACE-FO Gravity Mapping   | Gravity anomalies track mass redistribution (ice, mantle flow).               | λ-field anomalies from Ω and G, not mass alone; logarithmic phase accumulation produces dark-matter-like anomalies at large scales; possible phase-lags. | Perfect mass–gravity correlation after improved Earth models.
+NASA AWE (Mesospheric Waves) | Waves fully explained by fluid dynamics and buoyancy.                       | Coherence patterns tied to θ oscillation; preferred frequencies; λ-dependent anisotropies in propagation with logarithmic scaling at larger heights. | All wave statistics match atmospheric models with no residual coherence structure.- 
+
 
 ### TCWT Orbital Mechanics (v2026.2)
 
