@@ -103,24 +103,33 @@ S = 2√2 C(v)
 | **GRACE‑FO Gravity Mapping** | Gravity anomalies track mass redistribution (ice, mantle flow). | λ‑field anomalies from Omega and G, not mass alone; possible phase‑lags between mass change and gravity signal. | Perfect mass–gravity correlation after improved Earth models. |
 | **NASA AWE (Mesospheric Waves)** | Waves fully explained by fluid dynamics and buoyancy. | Coherence patterns tied to θ oscillation; preferred frequencies; λ‑dependent anisotropies in propagation. | All wave statistics match atmospheric models with no residual coherence structure. |
 
-### TCWT Orbital Equation
+### TCWT Orbital Mechanics (v2026.2)
 
-TCWT models gravitational acceleration as a leakage gradient of the temporal phase field:
+Gravity emerges as phase-bleed acceleration:
 
-\[
-\mathbf{a}(r) = -K\,\nabla\theta(r)
-\]
+$$
+\mathbf{a}(r) = -\chi \nabla\theta(r)
+$$
 
-For circular orbits this becomes:
+For circular orbits:
 
-\[
-\boxed{
-\frac{d\theta}{dr} = \frac{v^2}{K r}
-}
-\]
+$$
+\frac{v^2}{r} = \chi \left| \frac{d\theta}{dr} \right|
+$$
 
-This single equation is the basis for reconstructing the Earth‑knot phase field from orbital data.  
-Full derivation in `docs/tcwt_orbital_mechanics_v1.md`.
+$$
+\boxed{ \frac{d\theta}{dr} = \frac{v^2}{\chi r} }
+$$
+
+**Phase-to-acceleration coupling**:
+
+$$
+\chi = c^2 \kappa \approx 1.31 \times 10^{17} \, \text{m}^2/\text{s}^2
+$$
+
+(derived internally from relativistic scale c² and phase strength κ = 1.455)
+
+This reproduces Newtonian orbits at low speeds/distortions while allowing phase-dependent deviations at high Ω..
 
 LICENSE: Apache-2.0
 cff-version: 1.2.0
