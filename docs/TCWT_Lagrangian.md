@@ -174,7 +174,21 @@ where \bar{Ω} is the average Ω over the interval. For slowly varying Ω, this 
 
 This is not added by hand — it is a direct consequence of the non-local phase-coupling term in the action.
 
-## 7. Diagram Placeholders
+### 7 Visibility Suppression (fully internal derivation)
+
+$$
+V(r) = \exp(-\sigma |\lambda(r)|)
+$$
+
+σ is derived from the requirement that visibility drops to 1/e exactly when the phase gradient reaches the transition value:
+
+$$
+\sigma = \frac{1}{|\lambda|_{\text{transition}}} = \frac{1}{g} = \frac{1}{\kappa \times 2\pi f_{\text{Hum}} / c} \approx 6.58 \times 10^{-36} \, \text{m/rad}
+$$
+
+This ties visibility loss directly to the same transition scale that defines quantum-to-classical behaviour.
+
+## 8. Diagram Placeholders
 
 You may add diagrams here:
 
@@ -184,7 +198,7 @@ You may add diagrams here:
 
 ---
 
-## 7. Summary
+## 9. Summary
 
 This Lagrangian provides a bridge between TCWT’s coherence‑based physics and standard field theory.  
 It preserves the core TCWT mechanisms while presenting them in a form compatible with GR, QFT, and conventional theoretical frameworks.
