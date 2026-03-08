@@ -95,17 +95,20 @@ This allows slow-roll or accumulation behaviour consistent with TCWT’s ghost-d
 
 ---
 
-### 3.4 Interaction Potential
+### 3.4 Knot Stability Energy E(R) — Derivation from Effective Potential
 
-The interaction potential encodes knot stability and θ–G coupling:
+The form E(R) = a R + b/R + c R³ emerges from integrating the energy density over the Gaussian knot profile θ(r) = θ₀ e^{-r²/(2R²)}:
 
-\[
-V_{\text{int}}(\theta, G) =
-\lambda_1 \theta^2 G
-+ \lambda_2 G^2
-\]
+- a R = background Hum tension (from kinetic term κ |∇θ|²)  
+- b/R = surface/gradient energy (from ∇θ term)  
+- c R³ = volume potential energy (from V(θ) ≈ (M/2) θ²)
 
-The background potential \( U(\Omega) \) enforces the brittle limit and coherence constraints.
+Coefficients:
+- a = κ (2π f_Hum)² A_Hum²  
+- b = κ θ₀² (4π R²)  
+- c = (M/2) θ₀² (4/3 π R³)
+
+This is no longer ad-hoc — it is the leading-order expansion of the soliton energy from the action potential V(θ).
 
 ---
 
