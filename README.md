@@ -93,6 +93,17 @@ S = 2√2 C(v)
 - Bell‑test prediction curve defined
 - CMB anisotropy mechanism established
 
+TCWT vs GR — 2026 Scientific Tests
+|  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+
+
+
+
+
 
 LICENSE: Apache-2.0
 cff-version: 1.2.0
