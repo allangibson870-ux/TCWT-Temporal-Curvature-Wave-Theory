@@ -38,7 +38,12 @@ a(r) = -χ λ(r)
 5. Ghost Density (Dark Energy)
 ∂t G = ∇²θ
 
-
+## NOTE - Dark Energy in TCWT
+Ghost waves are the non-commuting phase leakage from temporal knots. The effective dark-energy density is currently expressed as
+ρ_DE ∝ κ P_leak × (c / (R_SLAB H₀))
+This reproduces the observed value ~6 × 10^{-27} kg/m³ after scaling to cosmic knots.
+Current status: The scaling factor (R_SLAB, H₀) is phenomenological. Pure internal derivations (using N_knot, l_transition, coherence length) produce values orders of magnitude away from observation.
+This is an open area for future refinement — likely requiring a new dilution or geometric factor from knot distribution statistics.
 
 6. The Coherence Action
 S_TCWT[θ, Ω, G] = ∫ dt ∫ d³r  L_TCWT
