@@ -93,16 +93,14 @@ S = 2√2 C(v)
 - Bell‑test prediction curve defined
 - CMB anisotropy mechanism established
 
-TCWT vs GR — 2026 Scientific Tests
-|  |  |  |  |  |  | 
-|  |  |  |  |  |  | 
-|  |  |  |  |  |  | 
-|  |  |  |  |  |  | 
-|  |  |  |  |  |  | 
+## TCWT vs GR — 2026 Scientific Tests
 
-
-
-
+| Test Area | GR Expectation | TCWT Expectation | What Would Falsify TCWT |
+|-----------|----------------|------------------|--------------------------|
+| **NIST Optical Clocks** | Smooth gravitational redshift; no residuals at 10⁻¹⁹ stability. | Tiny configuration‑dependent residuals due to Omega‑drag; frequency‑dependent phase behaviour; coherence‑cliff effects near Omega → Omega_max. | No residuals beyond GR across all configurations and frequencies. |
+| **JWST Early Chemistry** | Abundances explained by stellar evolution and nucleosynthesis. | Apparent “impossible” abundances caused by visibility distortions (V = exp(-σ|λ|)); line‑ratio anomalies correlate with λ‑field structure. | All anomalies fully explained by standard nucleosynthesis and stellar modelling. |
+| **GRACE‑FO Gravity Mapping** | Gravity anomalies track mass redistribution (ice, mantle flow). | λ‑field anomalies from Omega and G, not mass alone; possible phase‑lags between mass change and gravity signal. | Perfect mass–gravity correlation after improved Earth models. |
+| **NASA AWE (Mesospheric Waves)** | Waves fully explained by fluid dynamics and buoyancy. | Coherence patterns tied to θ oscillation; preferred frequencies; λ‑dependent anisotropies in propagation. | All wave statistics match atmospheric models with no residual coherence structure. |
 
 
 LICENSE: Apache-2.0
