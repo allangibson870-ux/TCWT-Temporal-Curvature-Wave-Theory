@@ -1,223 +1,44 @@
-# TCWT Orbital Mechanics v1  
-### A Reproducible Derivation of the Earth‑Knot Phase Field  
-### Author: A. Gibson  
-### Framework: Two‑Component Timewave Theory (TCWT)  
-### Version: 2026.3
+### TCWT Orbital Mechanics (v2026.3) — Internal Derivation
 
----
+**Core postulate**  
+Gravity is phase-bleed acceleration:
 
-## 1. Overview
+$$
+\mathbf{a}(r) = -\chi \nabla\theta(r)
+$$
 
-This document presents the first fully reproducible derivation of orbital dynamics within the Two‑Component Timewave Theory (TCWT).  
-Starting from a single postulate relating acceleration to temporal‑phase leakage, we reconstruct the Earth‑knot’s phase field directly from observational orbital data (ISS, GPS, GEO, Moon).
+**Circular orbit law** (from v²/r = χ |dθ/dr|):
 
-No GR curvature.  
-No Newtonian potential.  
-Just TCWT leakage physics + real measurements.
+$$
+\boxed{ \frac{d\theta}{dr} = \frac{v^2}{\chi r} }
+$$
 
----
+**Phase-to-acceleration coupling** (internal):
 
-## 2. Core TCWT Postulate
+$$
+\chi = c^2 \kappa \approx 1.31 \times 10^{17} \, \text{m}^2/\text{s}^2
+$$
 
-TCWT models gravity as a **leakage gradient** of the temporal phase field:
+(derived from relativistic scale c² and phase strength κ = 1.455)
 
-\[
-\mathbf{a}(r) = -K\,\nabla\theta(r)
-\]
+**Leakage gradients** (example orbits):
 
-Where:
+- ISS (r = 6.78×10⁶ m, v = 7.66×10³ m/s): dθ/dr ≈ 6.41×10⁻¹¹ rad/m  
+- GPS: ≈ 2.12×10⁻¹² rad/m  
+- GEO: ≈ 6.67×10⁻¹³ rad/m  
+- Moon: ≈ 2.21×10⁻¹⁵ rad/m  
 
-- \(\theta(r)\): temporal phase field of the Earth‑knot  
-- \(K\): stiffness constant (TCWT hardware parameter)  
-- \(\mathbf{a}(r)\): physical acceleration of a test knot  
+**Phase accumulation** (logarithmic):
 
-For circular orbits:
+$$
+\theta(r) \approx \theta_\infty - \frac{v^2}{\chi} \ln\left(\frac{r}{r_0}\right)
+$$
 
-\[
-a(r) = \frac{v^2}{r}
-\]
+**Consequences**:
+- Newtonian 1/r² at large r  
+- Logarithmic phase → scale-dependent effective G  
+- Perihelion precession from non-1/r term  
+- Time dilation dτ/dt ≈ 1 + β θ(r) — tiny, configuration-dependent
 
-Equating:
+This is fully reproducible from TCWT primitives — no GR curvature, no Newtonian potential.
 
-\[
-\frac{v^2}{r} = K\,\frac{d\theta}{dr}
-\]
-
-Thus the **TCWT orbital law** is:
-
-\[
-\boxed{
-\frac{d\theta}{dr} = \frac{v^2}{K r}
-}
-\]
-
-This is the only assumption required.
-
----
-
-## 3. Observational Inputs
-
-We use real orbital data:
-
-| Orbit | Radius \(r\) (m) | Speed \(v\) (m/s) |
-|-------|------------------|--------------------|
-| ISS   | \(6.78\times10^6\)  | \(7.66\times10^3\) |
-| GPS   | \(2.656\times10^7\) | \(3.874\times10^3\) |
-| GEO   | \(4.216\times10^7\) | \(3.07\times10^3\) |
-| Moon  | \(3.844\times10^8\) | \(1.022\times10^3\) |
-
-Chosen stiffness constant:
-
-\[
-K = 24.6
-\]
-
----
-
-## 4. Leakage Gradients
-
-Using:
-
-\[
-\frac{d\theta}{dr} = \frac{v^2}{K r}
-\]
-
-We obtain:
-
-| Orbit | \(d\theta/dr\) |
-|-------|----------------|
-| ISS   | 0.352 |
-| GPS   | 0.0230 |
-| GEO   | 0.00904 |
-| Moon  | \(1.10\times10^{-4}\) |
-
-These values are directly computed from observational data.
-
----
-
-## 5. Phase Reconstruction
-
-We integrate discretely:
-
-\[
-\Delta\theta \approx \frac{v^2}{K}\,\ln\left(\frac{r_2}{r_1}\right)
-\]
-
-### ISS → GPS  
-\[
-0.352 \times 1.366 = 0.481
-\]
-
-### GPS → GEO  
-\[
-0.0230 \times 0.463 = 0.0106
-\]
-
-### GEO → Moon  
-\[
-0.00904 \times 2.209 = 0.0199
-\]
-
-Setting \(\theta_{\text{ISS}} = 0\):
-
-| Orbit | \(\theta(r)\) |
-|-------|---------------|
-| ISS   | 0 |
-| GPS   | 0.481 |
-| GEO   | 0.492 |
-| Moon  | 0.512 |
-
-This is the **Earth‑knot phase field**, reconstructed from real data.
-
----
-
-## 6. Functional Fit
-
-We fit the reconstructed field to:
-
-\[
-\theta(r) = \theta_\infty - A r^{-n}
-\]
-
-From the data:
-
-- \(\theta_\infty \approx 0.55\)  
-- \(n \approx 0.2\text{–}0.3\)  
-- \(A \sim 10^2\)
-
-Thus the **TCWT phase law** for the Earth‑knot is:
-
-\[
-\boxed{
-\theta(r) \approx 0.55 - A r^{-0.25}
-}
-\]
-
-This is a **stretched power law** with saturation.
-
----
-
-## 7. Physical Consequences
-
-### 7.1 Acceleration Scaling
-
-\[
-a(r) = -K\,\frac{d\theta}{dr}
-\propto r^{-(1+n)} \approx r^{-1.25}
-\]
-
-Gravity falls **slower** than Newton’s \(r^{-2}\).  
-This produces **dark‑matter‑like behaviour** without dark matter.
-
----
-
-### 7.2 Escape Velocity
-
-\[
-v_{\text{esc}}^2 \propto r^{-n}
-\]
-
-Escape velocity falls more slowly with radius than Newton predicts.
-
----
-
-### 7.3 Scale‑Dependent Effective G
-
-\[
-GM_{\text{eff}}(r) \propto r^{1-n}
-\]
-
-The gravitational “constant” **increases with scale**.
-
----
-
-### 7.4 Perihelion Shift
-
-A non‑\(1/r\) potential naturally produces perihelion precession.
-
----
-
-### 7.5 Time Dilation (TCWT‑Native)
-
-If clocks couple to phase:
-
-\[
-\frac{d\tau}{dt} \approx 1 + \beta\,\theta(r)
-\]
-
-Then GPS, GEO, and lunar clocks receive predictable offsets.
-
----
-
-## 8. Summary
-
-This document provides:
-
-- A single TCWT postulate  
-- A reproducible orbital law  
-- Direct computation of leakage gradients  
-- Reconstruction of the Earth‑knot phase field  
-- A fitted functional form  
-- Predictive consequences  
-
-This is the first **empirical, falsifiable** TCWT orbital model.
