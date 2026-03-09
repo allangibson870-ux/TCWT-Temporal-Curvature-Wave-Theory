@@ -1,143 +1,61 @@
+# TCWT — Total Coherence Wave Theory (v2026.3)
 
-TCWT — Total Coherence Wave Theory (v2026.2)
-A coherence‑based scalar framework where time is a physical wave, knots are stable solitons, and gravity emerges from phase‑bleed.
-1. Overview
-TCWT proposes that time is a physical oscillation — the TimeWave — with tension, stiffness, and coherence.
-All physical structure (matter), long‑range interaction (gravity), and quantum behaviour emerge from distortions of this wave.
-The theory is built from four primitives:
-- θ — unwinding phase
-- Ω — temporal drag
-- λ = ∇θ — phase‑bleed (gravity analogue)
-- G — ghost density (dark‑energy analogue)
+A coherence-based scalar framework where time is a physical wave, knots are stable solitons, and gravity emerges from phase-bleed.
 
-2. The Eternal Hum
-θ_Hum(t) = A_Hum sin(2π f_Hum t + ψ)
+## Core Idea in One Sentence
 
+Time is an eternal oscillating background wave (the TimeWave).  
+All matter, gravity, quantum behaviour, dark matter, and dark energy emerge from distortions (knots) and their phase leakage into this wave.
 
+## Four Primitives
 
-3. Knots (Matter)
-θ_Knot(r,t) = Θ0(t) e^{-r²/R²}
+- **θ** — unwinding temporal phase  
+- **Ω** — temporal drag / informational density  
+- **λ = ∇θ** — phase-bleed (gravity analogue)  
+- **G** — ghost density (dark-energy analogue)
 
+## Key Equations (high-level)
 
-Knots have finite binding energy, finite radius, and stability enforced by the coherence action.
+- Eternal Hum: θ_Hum(t) = A_Hum sin(2π f_Hum t + ψ)  
+- Knots (matter): θ_Knot(r,t) ≈ Θ₀(t) e^{-r²/R²}  
+- Gravity: a(r) = -χ λ(r) = -χ ∇θ(r)  
+- Dark energy: ρ_DE ∝ κ P_leak × (phenomenological scaling)  
+- Visibility / decoherence: V = exp(-σ |λ|)  
+- Relativistic decoherence: Ω(v) capped at Ω_max ≈ 16.91  
+- Quantum commutator: [θ(t₁), θ(t₂)] = i κ Ω (t₂ - t₁)
 
-4. Phase‑Bleed (Gravity)
-λ = ∇θ
-∇·λ = ∂t G
+## Built-in Safeguards
 
+- Energy positivity: M → |M| in Ω  
+- Ω cap: Ω ≤ Ω_max = Ω_transition / κ ≈ 16.91  
+- Visibility floor: V ≥ 10^{-60}  
+- Knot size floor: R_knot ≥ Planck length
 
-Poisson‑like law:
-∇·λ = 4π γ ρ_knot
+These prevent unphysical runaway while preserving all predictions.
 
+## Current Status & Roadmap
 
-Newton‑like acceleration:
-a(r) = -χ λ(r)
+- Coherence action & Noether currents defined  
+- Knot stability derived from effective potential  
+- Gravity as phase-bleed field  
+- Dark matter as phase-opaque knots in fractal foam  
+- Dark energy as collective inductance (scaling still phenomenological)  
+- Relativistic decoherence & 21 cm anomaly explained  
+- Orbital phase accumulation derived
 
+## Detailed Mathematics
 
+For the full orthodox field-theory formulation (Lagrangian, Noether currents, commutator derivation, visibility, knot stability, phase-opaque dark matter, reionization-locked dark energy, etc.) see:
 
-5. Ghost Density (Dark Energy)
-∂t G = ∇²θ
+→ [TCWT Lagrangian (Orthodox Field-Theory Form)](docs/TCWT-Lagrangian-Orthodox.md)
 
-## NOTE - Dark Energy in TCWT
-Ghost waves are the non-commuting phase leakage from temporal knots. The effective dark-energy density is currently expressed as
-ρ_DE ∝ κ P_leak × (c / (R_SLAB H₀))
-This reproduces the observed value ~6 × 10^{-27} kg/m³ after scaling to cosmic knots.
-Current status: The scaling factor (R_SLAB, H₀) is phenomenological. Pure internal derivations (using N_knot, l_transition, coherence length) produce values orders of magnitude away from observation.
-This is an open area for future refinement — likely requiring a new dilution or geometric factor from knot distribution statistics.
+## Scientific Test Roadmap (2026)
 
-6. The Coherence Action
-S_TCWT[θ, Ω, G] = ∫ dt ∫ d³r  L_TCWT
-
-
-L_TCWT =
-  - C0 (∂tθ - Ω)²
-  - κ |∇θ|²
-  - α (∂tG - ∇²θ)²
-  - U(Ω)
+See the detailed comparison table in the Lagrangian document.
 
 
 
-7. Knot Stability
-E(R) = aR + b/R + cR³
-
-
-
-8. Relativistic Decoherence
-Ω(v) = 1 / sqrt(1 - (v/v_Hum)²)
-Ω_max = 24.6
-v_crit = 0.9992 v_Hum
-C(v) = max(0, 1 - (Ω(v)/24.6)²)
-S(v) = 2√2 · C(v)
-
-
-
-9. Visibility & Dark Matter
-V(r) = exp(-σ |λ(r)|)
-
-
-
-10. Cosmology
-ΔT/T = A κ λ + B κ ∫ ∂tλ dr
-ρ_DE ∝ κ P_leak (c / (R_slab H0))
-
-
-
-11. Quantum Behaviour
-[θ(t1), θ(t2)] = i κ (t2 - t1)
-V = exp(-σ λ)
-S = 2√2 C(v)
-
-
-
-### Built-in Safeguards (prevent unphysical extremes)
-
-- Energy positivity: Replace M with |M| in Ω (no negative mass/energy)  
-- Ω cap: Ω → min(Ω, Ω_max) where Ω_max = Ω_transition / κ ≈ 16.91  
-  (derived from transition scale and phase strength)
-
-These bounds are purely internal to TCWT and eliminate runaway absurdities (e.g. infinite shredding, negative temperature, stable "ice Sun" configurations) while preserving all previous predictions.
-
-12. Status & Roadmap
-- Coherence action defined
-- Knot stability proven
-- Gravity = λ‑field
-- Dark matter = low‑visibility knots
-- Dark energy = ghost accumulation
-- Relativistic decoherence curve derived
-- Bell‑test prediction curve defined
-- CMB anisotropy mechanism established
-
-###TCWT vs GR — 2026 Scientific Tests
-
-Test Area                  | GR Expectation                                                                 | TCWT Expectation (updated)                                                                                          | What Would Falsify TCWT
----------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-------------------------
-NIST Optical Clocks        | Smooth gravitational redshift; no residuals at 10⁻¹⁹ stability.               | Tiny configuration- and path-dependent residuals due to Ω-drag and logarithmic phase accumulation; frequency-dependent phase behaviour; coherence-cliff near Ω → Ω_max. | No residuals beyond GR across all configurations and frequencies.
-JWST Early Chemistry       | Abundances explained by stellar evolution and nucleosynthesis.                | Apparent “impossible” abundances caused by visibility distortions (V = exp(−σ λ)); logarithmic phase bleed could mimic abundance gradients. | Perfect match to standard stellar + nucleosynthesis models with no residual visibility effects.
-GRACE-FO Gravity Mapping   | Gravity anomalies track mass redistribution (ice, mantle flow).               | λ-field anomalies from Ω and G, not mass alone; logarithmic phase accumulation produces dark-matter-like anomalies at large scales; possible phase-lags. | Perfect mass–gravity correlation after improved Earth models.
-NASA AWE (Mesospheric Waves) | Waves fully explained by fluid dynamics and buoyancy.                       | Coherence patterns tied to θ oscillation; preferred frequencies; λ-dependent anisotropies in propagation with logarithmic scaling at larger heights. | All wave statistics match atmospheric models with no residual coherence structure.- 
-
-
-### TCWT Orbital Mechanics (v2026.2)
-
-**Phase-to-acceleration coupling χ** (internal from knot squeeze):
-
-$$
-\chi = \frac{3 E_{\text{knot}}}{m_{\text{H}} \times \Omega_{\text{transition}}} \approx 1.10 \times 10^{-63} \, \text{m}^2/\text{s}^2
-$$
-
-This tiny value ensures gravity is a weak residual effect from knot squeeze leakage.
-
-**Phase-to-acceleration coupling**:
-
-$$
-\chi = c^2 \kappa \approx 1.31 \times 10^{17} \, \text{m}^2/\text{s}^2
-$$
-
-(derived internally from relativistic scale c² and phase strength κ = 1.455)
-
-This reproduces Newtonian orbits at low speeds/distortions while allowing phase-dependent deviations at high Ω..
-
-LICENSE: Apache-2.0
+## LICENSE: Apache-2.0
 cff-version: 1.2.0
 message: "If you use this theory or code, please cite it as below."
 authors:
