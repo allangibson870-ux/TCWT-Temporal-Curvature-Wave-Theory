@@ -202,7 +202,31 @@ $$
 
 This ties visibility loss directly to the same transition scale that defines quantum-to-classical behaviour.
 
-## 8. Diagram Placeholders
+---
+
+### 8 Dark Matter as Phase-Opaque Knots in the Fractal Phase-Foam
+
+The ~84 % mass discrepancy (dark matter) is identified as **phase-opaque knots** — high-gradient solitons with |∇θ| ≥ λ_crit ≈ 1.52 × 10^{35} rad/m.
+
+When the phase gradient reaches the critical value, Ω reaches Ω_max ≈ 16.91, entering the **relativistic decoherence shadow**:
+
+V ≤ exp(-σ λ_crit) ≈ exp(-1) ≈ 0.368
+
+These knots become gravitationally active but optically dark (visibility ≤ 36.8 %).
+
+They are **trapped** in the fractal phase-foam (Hausdorff dimension d ≈ log₂3 ≈ 1.585), which provides a self-similar potential that pins them permanently at high Ω.
+
+**Role**  
+Phase-opaque knots form the invisible gravitational scaffolding for the hierarchical pump: they channel phase-induction upward (stars → galaxies → clusters → cosmic web → universal knot) without radiating light.
+
+This explains:
+- Flat rotation curves (extra λ from opaque scaffolding)  
+- Bullet cluster separation (phase-bleed gravity detaches from baryons)  
+- The ~84 % missing mass fraction (effective f_DM ≈ 0.74–0.85 from fractal trapping + decoherence shadow)
+
+All parameters are internal — no exotic particles required.
+
+## 9. Diagram Placeholders
 
 You may add diagrams here:
 
@@ -212,7 +236,7 @@ You may add diagrams here:
 
 ---
 
-## 9. Summary
+## 10. Summary
 
 This Lagrangian provides a bridge between TCWT’s coherence‑based physics and standard field theory.  
 It preserves the core TCWT mechanisms while presenting them in a form compatible with GR, QFT, and conventional theoretical frameworks.
