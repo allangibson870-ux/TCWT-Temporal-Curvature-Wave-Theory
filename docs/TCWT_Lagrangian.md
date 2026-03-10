@@ -81,6 +81,26 @@ The inductive scaling exponent α(z) transitions from 0.5 (pre-reionization, loc
 
 - α(z) ≈ 0.5 for z > 6.1  
 - α(z) ≈ 0.4 for z < 6.1 (Reionization Lock at z ≈ 6.1)
+- Λ
+eff
+(
+𝑧
+)
+≡
+𝜅
+ 
+∣
+∇
+𝜃
+∣
+2
+ 
+𝑁
+knot
+𝛼
+(
+𝑧
+)
 
 This lock fixes the effective coupling after the universe becomes transparent, explaining why dark energy dominates late.  
 The transition is driven by the shift from stochastic resonance (√N_knot) to volume + fractal suppression (N_knot^{1/3} × foam factor).  
