@@ -177,6 +177,9 @@ Near knots (high λ) additional terms appear: phase-birefringence, logarithmic g
 
 This shows that **general relativity emerges** as the effective low-energy theory of the pregeometric TCWT action.
 
+<img width="2777" height="1170" alt="$PNG_NAME" src="https://github.com/user-attachments/assets/0fbe2c18-158b-4573-8bab-f29302a10d3c" />
+
+
 ### Knot Network Branching & Emergent Space-Filling in TCWT
 
 The fractal knot network grows from discrete 1D filaments into an effectively 3D medium as branching level n increases.  
@@ -212,5 +215,6 @@ This pregeometric sketch is the more fundamental description in which no such ba
 
 This sketch provides a consistent pregeometric foundation for TCWT.  
 The metric-dependent “orthodox” formulation should be regarded as an effective low-energy approximation on top of this underlying structure.
+
 
 
