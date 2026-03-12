@@ -49,6 +49,8 @@ For the full orthodox field-theory formulation (Lagrangian, Noether currents, co
 
 TCWT Lagrangian https://github.com/allangibson870-ux/TCWT-Total-Coherence-Wave-Theory/blob/main/docs/TCWT_Lagrangian.md
 
+TCWT Pregeometric - https://github.com/allangibson870-ux/TCWT-Total-Coherence-Wave-Theory/blob/main/docs/TCWT-Lagrangian-Pregeometric.md
+
 ## Scientific Test Roadmap (2026)
 
 https://github.com/allangibson870-ux/TCWT-Total-Coherence-Wave-Theory/blob/main/docs/Observational%20Tests.md
