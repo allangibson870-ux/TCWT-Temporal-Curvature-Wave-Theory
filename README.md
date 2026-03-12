@@ -35,7 +35,8 @@ These prevent unphysical runaway while preserving all predictions.
 
 ## Dark Matter in TCWT: Phase-Opaque Knots
 
-[... your existing dark matter text ...]
+~84 % mass discrepancy = phase-opaque knots (|∇θ| ≥ λ_crit → Ω ≥ Ω_max, V ≤ 0.368).
+Trapped in fractal foam (d ≈ 1.585), they form gravitational scaffolding without light emission.
 
 ### Why Galaxy Rotation Curves Are Flat (No Dark Matter Needed)
 
