@@ -190,6 +190,10 @@ $$
 This formulation bridges TCWT to standard field theory while preserving core mechanisms.  
 Dark energy scaling remains open for refinement (phenomenological at present).
 
+Note on spacetime
+This formulation uses a fixed background metric gμν (usually flat Minkowski) for compatibility with standard field-theory notation and low-energy calculations.
+In the full TCWT ontology, spacetime itself emerges from the θ field and knot network — see the companion pregeometric document for the background-free version.
+
 Current limitations: quantitative dark energy and cosmic untangling timescale need further work.
 Important note on spacetime
 This formulation uses a fixed Minkowski metric $  g_{\mu\nu}  $ for compatibility with standard field-theory notation. In the full TCWT ontology, spacetime itself emerges from distortions of the TimeWave (θ-field and knots). The metric is therefore an effective, low-energy construct, not fundamental.
