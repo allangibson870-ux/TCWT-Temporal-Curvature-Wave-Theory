@@ -112,6 +112,17 @@ In TCWT, phase-bleed accumulation is **logarithmic** (θ(r) ∝ ln(r)) and filte
 | 10 units | 0.01                     | ~0.26                     | ~26× stronger            |
 | 100 units| 0.0001                   | ~0.067–0.14               | ~670–1400× stronger      |
 
+### Dark Matter vs Gravity in Galaxy Rotation Curves
+
+In TCWT there is no separate “dark matter” that adds extra gravity.
+
+- The **mass** you detect via lensing and rotation curves is carried by **phase-opaque knots** (high-gradient solitons in the decoherence shadow).  
+- The **gravity** itself is phase-bleed λ = ∇θ, which accumulates logarithmically and is filtered by the fractal foam (d ≈ 1.585).  
+
+At galactic scales this combination produces a slower fall-off than Newtonian 1/r², flattening rotation curves without any exotic particles.
+
+Dark matter and modified gravity are two aspects of the **same underlying physics** — the phase-opaque knot network and its phase-bleed field.
+
 **Interpretation**  
 - At small scales (near knots): TCWT matches Newtonian gravity (phase-bleed ≈ 1/r²)  
 - At large scales (galactic/cluster/cosmic): logarithmic accumulation + fractal filtering strengthens effective gravity → explains rotation curves, cluster dynamics, and cosmic acceleration without dark matter or modified G  
