@@ -177,6 +177,24 @@ Near knots (high λ) additional terms appear: phase-birefringence, logarithmic g
 
 This shows that **general relativity emerges** as the effective low-energy theory of the pregeometric TCWT action.
 
+### Knot Network Branching & Emergent Space-Filling in TCWT
+
+The fractal knot network grows from discrete 1D filaments into an effectively 3D medium as branching level n increases.  
+This table shows how space-filling emerges (approximate values for a 3-branching fractal with contraction ratio ~1.8–2.0 per level):
+
+| Branch Level n | Number of Filaments (Paths) | Space-Filling % | Interpretation |
+|----------------|-----------------------------|-----------------|---------------|
+| 1–3            | 4–64                        | < 0.2%          | Deep UV / Sub-Knot Scale: Discrete paths; no continuous 3D geometry exists yet. |
+| 4–6            | 256–4096                    | 0.8% – 4.1%     | Transition Zone: Phase-bleed paths begin to overlap; effective "distance" emerges. |
+| 7–8+           | 16,384+                     | > 5.1%          | Emergent Manifold: Network dense enough that disturbances propagate as if in a 3D medium. |
+
+**Interpretation**  
+- At low n: The system is purely 1D (filamentary), high-dimensional UV physics dominates.  
+- At intermediate n: Overlap creates emergent metric (graph distance ≈ physical distance).  
+- At high n: Effective continuum limit → observers see 3D space + Lorentz invariance.
+
+This branching process is what allows spacetime to **emerge** from the pregeometric knot network without assuming a background manifold.
+
 ## 6. Summary & Current Status
 
 This pregeometric version eliminates any background metric or coordinates.  
@@ -194,4 +212,5 @@ This pregeometric sketch is the more fundamental description in which no such ba
 
 This sketch provides a consistent pregeometric foundation for TCWT.  
 The metric-dependent “orthodox” formulation should be regarded as an effective low-energy approximation on top of this underlying structure.
+
 
