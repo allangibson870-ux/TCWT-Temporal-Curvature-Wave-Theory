@@ -150,3 +150,88 @@ Smooth Gaussian barrier → Δa < 10^{-10} m/s² (below tracking precision).
 No detectable jumps.
 
 Theory survives major empirical tests.
+
+# TCWT Field Equations 
+
+Starting from the TCWT Lagrangian density:
+
+L = C₀ (θ̇ − Ω)²
+  + κ (θ′)²
+  + α ( Ġ − θ″ )²
+  − (μ/2)( Ω − κ|θ′| )²
+  − VΩ(Ω)
+
+we vary with respect to θ, Ω, and G.
+
+---
+
+## 1. Field Equation for the Phase Field θ
+
+∂/∂t [ 2 C₀ (θ̇ − Ω) ]
+ − ∂/∂ℓ [ 2 κ θ′ − 2 α ( Ġ − θ″ )′ ]
+ = μ κ sgn(θ′) ( Ω − κ |θ′| )
+
+This is the core TCWT wave equation.  
+It contains:
+- intrinsic time derivative  
+- intrinsic spatial derivative  
+- ghost‑coupling curvature term  
+- phase‑bleed constraint  
+- Ω‑cap restoring force  
+
+---
+
+## 2. Field Equation for the Informational Density Ω
+
+− 2 C₀ (θ̇ − Ω)
+− μ ( Ω − κ |θ′| )
+− ∂VΩ/∂Ω
+= 0
+
+This enforces:
+- the Ω‑cap  
+- the visibility floor  
+- the matching condition Ω ≈ κ|θ′|  
+- the drag term responsible for dark‑matter‑like behaviour  
+
+---
+
+## 3. Field Equation for the Ghost Field G
+
+∂/∂t [ 2 α ( Ġ − θ″ ) ] = 0
+
+Low‑energy limit:
+
+Ġ ≈ θ″
+
+This produces:
+- ghost‑leakage  
+- dark‑energy‑like behaviour  
+- reionization‑locked acceleration  
+
+---
+
+## 4. Constraint Equation from the Ω‑cap Term
+
+Ω = κ |θ′|        (when Ω < Ω_max)
+
+Ω = Ω_max        (when the cap is saturated)
+
+This is the phase‑bleed matching condition.  
+It generates:
+- the stripping peak  
+- the coherence minimum  
+- the Mercury parking radius  
+- the λ(r) landscape  
+
+---
+
+# Summary
+
+These four equations form the mathematical backbone of TCWT:
+- θ‑equation → Hum, λ(r), curvature, decoherence  
+- Ω‑equation → dark matter, drag, opacity  
+- G‑equation → dark energy, leakage  
+- Ω‑cap constraint → stable minima, stripping zones  
+
+
