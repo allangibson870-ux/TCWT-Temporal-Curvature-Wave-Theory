@@ -231,11 +231,8 @@ Mercury is the surviving core of an early gas-rich inner planet whose stripped
 material contributed to the enrichment of the inner protoplanetary disk during
 the epoch when Earth and Venus were assembling.
 
-λ(r) = 0.2 + 5.0 · exp[ -(r - 0.225)² / (2 · 0.35²) ] - 4.2 · exp[ -(r - 0.39)² / (2 · 0.21²) ]
+$\lambda(r) = 0.2 + 5.0 \cdot \exp\left[ -\frac{(r - 0.225)^2}{2 \cdot 0.35^2} \right] - 4.2 \cdot \exp\left[ -\frac{(r - 0.39)^2}{2 \cdot 0.21^2} \right]$
 
-Low λ (< 0.15 AU) → coherence pocket
-Sharp peak at 0.225 AU → Ω_max trench → stripping
-Dip at 0.39 AU → coherence minimum → core parking
 
 **Limitations & next steps**  
 - The measure \(\mathcal{D}_{\text{foam}}\) is now explicitly defined via weighted branching sum over fractal topologies  
