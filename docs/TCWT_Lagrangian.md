@@ -122,6 +122,32 @@ Opacity |∇θ| ≥ Ω_max / κ produces realistic halos:
 - Sharp core-halo transition  
 - Flat rotation curves
 
+- # The $\Omega$-Cap as a UV/IR Regulator
+
+This document addresses the "Renormalization" of TCWT and how it avoids the infinite energy divergences found in standard Quantum Field Theory (QFT).
+
+## 1. The Ultraviolet (UV) Cutoff
+Standard gravity theories suffer from UV divergences at small scales (singularities). TCWT avoids this via the **$\Omega$-cap potential**:
+
+$$V_{\text{cap}} = -\frac{\lambda}{4} \left( \max(\Omega, \Omega_{\max})^2 - \Omega_{\max}^2 \right)^2$$
+
+Because the informational drag $\Omega$ cannot exceed $\Omega_{\max}$, the phase gradient $\lambda$ is naturally capped. This imposes a **dynamical UV cutoff** on the path integral $Z$:
+
+$$Z = \int \mathcal{D}\mu[\theta] \exp(i S)$$
+
+The measure $\mathcal{D}\mu[\theta]$ is suppressed by the Visibility Floor $V = \exp(-\sigma |\lambda|)$ as $\lambda \to \Omega_{\max}/\kappa$.
+
+## 2. Convergence of the Fractal Measure
+The sum over topologies in the fractal foam ($\mathcal{D}_{\text{foam}}$) is kept finite by the Gaussian weight $w_n(\lambda_n)$:
+
+$$w_n(\lambda_n) = \exp\left( -\frac{|\lambda_n|^2}{2\sigma^2} \right)$$
+
+This ensures that the "tangles" in the knot network cannot become infinitely complex. The theory is **self-regulating**; we do not need to manually insert a Planck scale, as the scale emerges from the $\Omega_{\max}$ stability threshold.
+
+## 3. Resolution of Singularities
+In TCWT, a "Black Hole" is not a point of infinite density. It is a **Finite Fractal Soliton** where the internal phase has reached the $\Omega_{\max}$ saturation point, resulting in a stable, phase-opaque core with radius $R \geq R_{\text{crit}}$.
+
+
 ## 8. Solar Flare Precursor
 
 δf/f ≈ β · δθ ≈ 10^{-18}–10^{-17}  
