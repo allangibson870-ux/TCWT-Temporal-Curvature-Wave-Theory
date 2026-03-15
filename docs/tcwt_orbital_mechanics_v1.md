@@ -1,60 +1,187 @@
-# TCWT Orbital Mechanics (v2026.4) — Functional Derivation
+# TCWT Orbital Mechanics
 
-This document defines the transition from Newtonian/Einsteinian gravity to the **Phase-Bleed Acceleration** model of Total Coherence Wave Theory (TCWT).
+### Phase-Bleed Gravity Formulation
+
+Version: 2026.5-corrected
+
+------------------------------------------------------------------------
 
 ## 1. Core Postulate: Phase-Bleed Acceleration
-In the TCWT pregeometric framework, gravity is not a force or a curvature, but a result of the gradient in the temporal phase field $\theta$. The acceleration $a(r)$ experienced by a test knot is:
 
-$$a(r) = -\chi \nabla \theta(r)$$
+In Total Coherence Wave Theory (TCWT), gravity arises from gradients in
+the temporal phase field θ.
 
-Where $\lambda = \nabla \theta$ is the phase-gradient (rad/m).
+a(r) = -χ ∇θ(r)
 
-## 2. Functional Derivation of the Coupling Constant $\chi$
-The coupling constant $\chi$ is a fundamental bridge between the emergent metric and the underlying Hum-flow. It is derived from the "stiffness" of the phase-foam ($\kappa$) and the coherence limit ($\Omega_{\max}$):
+Where:
 
-$$\chi = \frac{c^2 \kappa}{\sqrt{C_0 \cdot \Omega_{\max}}}$$
+  Symbol   Meaning                Units
+  -------- ---------------------- ---------------
+  θ        Temporal phase field   dimensionless
+  λ = ∇θ   Phase gradient         1/m
+  a        Acceleration           m/s²
+  χ        Coupling constant      m²/s²
 
-### Numerical Calibration (Solar System Context):
-Using the fundamental TCWT constants:
-* **$c$** (Hum speed) $\approx 2.9979 \times 10^8$ m/s
-* **$\kappa$** (Spatial phase-strength) $\approx 1.455$
-* **$\Omega_{\max}$** (Informational drag cap) $\approx 16.91$
-* **$C_0$** (Effective temporal coherence) $\approx 0.0594$ (Dimensionless)
+------------------------------------------------------------------------
 
-This yields the precisely calibrated value used in all Solar System simulations:
-$$\chi \approx 1.314 \times 10^{17} \, \text{m}^2/\text{s}^2$$
+## 2. Coupling Constant χ
+
+The coupling constant connects emergent gravitational acceleration to
+Hum-flow parameters.
+
+χ = (c² κ) / (C₀ Ω_max)
+
+### Calibration
+
+  Parameter   Value
+  ----------- ------------------
+  c           2.9979 × 10⁸ m/s
+  κ           1.455
+  Ω_max       16.91
+  C₀          0.0594
+
+Calculation:
+
+c² = 8.9874 × 10¹⁶
+
+χ ≈ 1.30 × 10¹⁷ m²/s²
+
+------------------------------------------------------------------------
 
 ## 3. Circular Orbit Law
-Equating the centripetal acceleration ($v^2/r$) to the phase-bleed force ($-\chi \lambda$):
 
-$$\frac{v^2}{r} = \chi \left| \frac{d\theta}{dr} \right| \implies \frac{d\theta}{dr} = \frac{v^2}{\chi r}$$
+For circular motion:
 
-### Phase-Gradients ($\lambda$) for Known Orbits:
+v² / r = a(r)
 
-| Orbit | Altitude / Radius ($r$) | Velocity ($v$) | Gradient $\lambda$ (rad/m) |
-| :--- | :--- | :--- | :--- |
-| **ISS** | $6.78 \times 10^6$ m | $7,660$ m/s | $\approx 6.41 \times 10^{-11}$ |
-| **GPS** | $2.66 \times 10^7$ m | $3,870$ m/s | $\approx 4.29 \times 10^{-12}$ |
-| **Moon** | $3.84 \times 10^8$ m | $1,022$ m/s | $\approx 2.07 \times 10^{-14}$ |
+Substituting phase‑bleed acceleration:
 
-## 4. The Logarithmic Potential
-Integrating the orbital law yields the **Logarithmic Phase Accumulation**:
+v² / r = χ \|λ\|
 
-$$\theta(r) \approx \theta_{\infty} - \frac{v^2}{\chi} \ln\left( \frac{r}{r_0} \right)$$
+Therefore:
 
-Unlike the $1/r$ Newtonian potential, the logarithmic nature of $\theta(r)$ ensures:
-1. **Newtonian Limit**: $1/r^2$ acceleration is recovered at large distances ($r \gg R_{crit}$).
-2. **MOND-like Behavior**: Flat rotation curves emerge in the galactic halo where the phase-viscosity $\zeta$ prevents the gradient from dropping to zero.
+λ(r) = v² / (χ r)
 
-## 5. Predicted Periastron Advance Deviation
-TCWT predicts a tiny, non-Einsteinian drift in the precession of binary pulsars due to the $\Omega$-cap interaction:
+This allows the phase gradient field to be inferred directly from
+orbital observations.
 
-* **PSR B1913+16**: $\Delta \theta_{\text{drift}} \approx +0.066$ arcsec/year.
-* **PSR J0737-3039**: $\Delta \theta_{\text{drift}} \approx +0.11$ arcsec/year.
+------------------------------------------------------------------------
 
-These values are currently within the $0.1\%$ error bars of General Relativity but will be resolvable by the **Square Kilometre Array (SKA)** timing data (sub-10 ns precision).
+## 4. Phase Gradients for Known Orbits
 
-## 6. Summary of Tests Passed
-* **Equivalence Principle**: Confirmed to $10^{-15}$ (MICROSCOPE) as center-of-mass motion depends only on the background $\lambda$.
-* **Photon Timing**: GW/EM coincidence maintained; null geodesics are Lorentz-invariant at low energy.
-* **Mercury Orbit**: Correctly predicts the $0.39$ AU "Parking Radius" via the coherence minimum in the $\lambda(r)$ landscape.
+Using χ = 1.30 × 10¹⁷:
+
+  Orbit   Radius r (m)   Velocity v (m/s)   λ (rad/m)
+  ------- -------------- ------------------ -------------
+  ISS     6.78 × 10⁶     7660               6.6 × 10⁻¹⁷
+  GPS     2.66 × 10⁷     3870               4.3 × 10⁻¹⁸
+  Moon    3.84 × 10⁸     1022               2.1 × 10⁻²⁰
+
+These gradients are extremely small, consistent with weak gravitational
+fields in the Solar System.
+
+------------------------------------------------------------------------
+
+## 5. Newtonian Limit
+
+For planetary systems:
+
+v² = GM / r
+
+Substituting into the gradient relation:
+
+λ(r) = GM / (χ r²)
+
+Integrating:
+
+θ(r) = θ∞ − GM / (χ r)
+
+Thus:
+
+∇θ ∝ 1 / r²
+
+and the acceleration becomes:
+
+a(r) = −GM / r²
+
+Therefore Newtonian gravity is recovered when the phase field is sourced
+by localized mass.
+
+------------------------------------------------------------------------
+
+## 6. Galactic Halo Regime
+
+For galaxies the rotation curve becomes approximately flat:
+
+v ≈ v₀
+
+Substituting:
+
+λ(r) = v₀² / (χ r)
+
+Integrating:
+
+θ(r) = θ₀ − (v₀² / χ) ln(r / r₀)
+
+This produces a logarithmic phase profile, which yields flat rotation
+curves without additional dark matter particles.
+
+------------------------------------------------------------------------
+
+## 7. Binary Pulsar Prediction
+
+TCWT predicts a small additional contribution to relativistic periastron
+advance due to Ω‑cap coupling.
+
+  System           Extra Precession
+  ---------------- --------------------
+  PSR B1913+16     +0.066 arcsec/year
+  PSR J0737‑3039   +0.11 arcsec/year
+
+Future pulsar timing arrays may be able to test this deviation.
+
+------------------------------------------------------------------------
+
+## 8. Empirical Consistency
+
+### Weak Equivalence Principle
+
+Acceleration depends only on the background phase gradient:
+
+a = −χ ∇θ
+
+Test‑body composition cancels, preserving universal free fall.
+
+### Multi‑Messenger Timing
+
+Low‑energy phase propagation remains Lorentz invariant, maintaining
+coincidence between gravitational‑wave and electromagnetic signals.
+
+------------------------------------------------------------------------
+
+## 9. Summary
+
+Key relations:
+
+Phase‑bleed acceleration:
+
+a = −χ ∇θ
+
+Orbital gradient:
+
+λ = v² / (χ r)
+
+Newtonian regime:
+
+θ(r) ∝ 1 / r
+
+Galactic halo regime:
+
+θ(r) ∝ ln r
+
+The framework:
+
+• reproduces Newtonian gravity in the Solar System\
+• naturally generates flat galactic rotation curves\
+• predicts small measurable pulsar timing deviations\
+• does not require additional dark matter particles
