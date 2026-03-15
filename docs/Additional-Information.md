@@ -182,4 +182,222 @@ In the long-wavelength, low-energy regime:
 
 G_eff = 1 / (8π κ)
 
+# TCWT MOND Limit
+## Emergent Flat Galaxy Rotation Curves
+
+Version: 2026.7  
+Status: Nonlinear phase-gradient modification
+
+---
+
+# 1. Motivation
+
+Observed galaxy rotation curves remain approximately flat at large radii.
+
+Newtonian gravity predicts
+
+v(r) ∝ r^(-1/2)
+
+but observations show
+
+v(r) ≈ constant
+
+This behavior is commonly explained using dark matter halos.
+
+In Total Coherence Wave Theory (TCWT), the same phenomenon can emerge from **nonlinear phase dynamics in low-gradient regions of the Hum field**.
+
+---
+
+# 2. Standard Phase Gradient Term
+
+The original TCWT Lagrangian contains the spatial term
+
+L_grad = κ (∇θ)²
+
+This produces the Newtonian Poisson equation
+
+∇²θ ∝ ρ
+
+which yields standard inverse-square gravity.
+
+---
+
+# 3. Nonlinear Phase Stiffness
+
+To capture large-scale coherence effects, we generalize the gradient term.
+
+Replace
+
+κ (∇θ)²
+
+with
+
+κ a₀² F( |∇θ|² / a₀² )
+
+where
+
+a₀ = coherence acceleration scale
+
+and F is a dimensionless function.
+
+---
+
+# 4. Choice of Function
+
+A simple choice is
+
+F(x) = (2/3) x^(3/2)
+
+This produces a modified field equation similar to MOND.
+
+Thus the gradient Lagrangian becomes
+
+L_grad = (2/3) κ a₀² ( |∇θ|³ / a₀³ )
+
+or
+
+L_grad = (2κ/3a₀) |∇θ|³
+
+---
+
+# 5. Modified Field Equation
+
+Varying the action gives
+
+∇ · ( |∇θ| ∇θ ) = ρ / κ
+
+This nonlinear Poisson equation governs the phase field in low-gradient regions.
+
+---
+
+# 6. Galactic Regime Solution
+
+For spherical symmetry
+
+|∇θ| = dθ/dr
+
+The equation becomes
+
+1/r² d/dr ( r² |θ'| θ' ) = ρ/κ
+
+Outside the mass distribution
+
+ρ = 0
+
+giving
+
+|θ'| θ' ∝ 1/r²
+
+Taking the positive branch
+
+θ' ∝ 1/r
+
+---
+
+# 7. Resulting Acceleration
+
+Acceleration in TCWT is
+
+a = −χ ∇θ
+
+Substituting
+
+∇θ ∝ 1/r
+
+gives
+
+a ∝ 1/r
+
+instead of
+
+1/r²
+
+---
+
+# 8. Flat Rotation Curves
+
+Orbital velocity is
+
+v² / r = a
+
+Substituting the modified acceleration
+
+v² / r ∝ 1/r
+
+gives
+
+v = constant
+
+Thus flat galaxy rotation curves emerge naturally.
+
+---
+
+# 9. Transition Between Regimes
+
+Define
+
+x = |∇θ| / a₀
+
+Then
+
+x ≫ 1  → Newtonian regime
+
+L_grad ≈ κ (∇θ)²
+
+x ≪ 1  → MOND regime
+
+L_grad ≈ (2κ/3a₀)|∇θ|³
+
+The transition occurs smoothly near
+
+|∇θ| ≈ a₀
+
+---
+
+# 10. Physical Interpretation
+
+In TCWT the modification arises from **coherence effects in the Hum field**.
+
+At large scales the phase field behaves collectively and becomes less stiff.
+
+This produces enhanced gravitational response without requiring additional particles.
+
+Thus galaxy halos correspond to regions where the **Hum coherence length exceeds the local knot scale**.
+
+---
+
+# 11. Connection to Observations
+
+Typical MOND acceleration scale
+
+a₀ ≈ 1.2 × 10⁻¹⁰ m/s²
+
+In TCWT this corresponds to a characteristic phase gradient
+
+|∇θ| ≈ a₀ / χ
+
+This scale may emerge from the ratio
+
+a₀ ~ c Ω_hum / Λ
+
+linking galactic dynamics to the Hum background.
+
+---
+
+# 12. Summary
+
+By modifying the phase gradient term to
+
+L_grad = κ a₀² F(|∇θ|² / a₀²)
+
+TCWT naturally produces
+
+- Newtonian gravity in strong fields
+- MOND-like dynamics in weak fields
+- flat galaxy rotation curves
+
+without invoking dark matter particles.
+
+These effects arise from nonlinear coherence behavior of the Hum phase field.
+
 General Relativity therefore appears as an effective macroscopic description of the underlying Hum coherence field.
