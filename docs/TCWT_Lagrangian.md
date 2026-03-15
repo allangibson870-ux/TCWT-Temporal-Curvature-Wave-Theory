@@ -1,304 +1,377 @@
-# TCWT Algebraic Mathematics & Derivations
-
-**Version**: 2026.3-algebraic-core (reconstructed)  
-**Author**: A. Gibson  
-**Purpose**: Core algebraic derivations, field equations, conserved quantities, stability analyses, and empirical consistency checks for Total Coherence Wave Theory (TCWT) in its pregeometric formulation.
-
-## 1. Field Equations
-
-From the pregeometric action
-
-$$
-S = \int \left[ 
-C_0 \left( \frac{d\theta}{dt} - \Omega \right)^2 
-+ \kappa \left( \frac{d\theta}{d\ell} \right)^2 
-+ \alpha \left( \frac{dG}{dt} - \frac{d^2 \theta}{d\ell^2} \right)^2 
-+ V_{\text{cap}}(\Omega) 
-\right] d\ell \, dt
-$$
-
-### 1.1 θ-equation of motion
-
-$$
-C_0 \frac{d}{dt} \left( \frac{d\theta}{dt} - \Omega \right) 
-- \frac{d}{d\ell} \left( \kappa \frac{d\theta}{d\ell} \right) 
-+ \alpha \frac{d^2}{d\ell^2} \left( \frac{dG}{dt} - \frac{d^2 \theta}{d\ell^2} \right) = 0
-$$
-
-### 1.2 Ω-evolution equation
-
-$$
-C_0 \left( \frac{d\theta}{dt} - \Omega \right) + \frac{\partial V_{\text{cap}}}{\partial \Omega} = 0
-$$
-
-When Ω < Ω_max → Ω = dθ/dt.  
-When Ω ≥ Ω_max the cap enforces Ω ≤ Ω_max.
-
-### 1.3 G field equation
-
-$$
-\partial_\mu \left( Z_G \partial^\mu G \right) - m_G^2 G + \gamma \Box \theta - \lambda_1 \theta^2 - 2 \lambda_2 G = 0
-$$
-
-### 1.4 Effective gravitational field & acceleration
-
-$$
-\lambda = \frac{d\theta}{d\ell}, \quad a(r) = -\chi \lambda
-$$
-
-(χ fixed from knot stability)
-
-## 2. Noether Currents
-
-Global U(1) phase shift θ → θ + ε is a symmetry.
-
-**Noether current**:
-
-$$
-J = 2 C_0 \left( \frac{d\theta}{dt} - \Omega \right) \frac{d}{dt} + 2 \kappa \frac{d\theta}{d\ell} \frac{d}{d\ell}
-$$
-
-**Physical meaning**: conserved temporal phase flux.  
-Enforces conservation of Hum information content; explains stability and collisionless nature of phase-opaque knots.
-
-## 3. Energy Density & Stability
-
-**Hamiltonian density**:
-
-$$
-\rho = C_0 \left( \frac{d\theta}{dt} - \Omega \right)^2 + \kappa \left( \frac{d\theta}{d\ell} \right)^2 + \alpha \left( \frac{dG}{dt} - \frac{d^2 \theta}{d\ell^2} \right)^2 + V_{\text{cap}}(\Omega)
-$$
-
-**Positive energy**: ρ ≥ 0 (vacuum equality).
-
-**Stability safeguards**:
-- Ω-cap quartic growth prevents Ω > Ω_max  
-- Visibility floor V = exp(−σ |λ|) suppresses high-λ runaways  
-- Knot size floor R ≥ R_crit prevents collapse
-
-## 4. Stability of Knot Solutions
-
-Gaussian ansatz:
-
-$$
-\theta_{\mathrm{knot}}(r) = \Theta_0 \exp\left( -\frac{r^2}{2R^2} \right)
-$$
-
-Equilibrium from δE/δR = 0.  
-Stability when δ²E/δR² > 0 for
-
-$$
-R > R_{\mathrm{crit}} = \frac{\Theta_0 \sqrt{\kappa}}{\sqrt{M}} \cdot \frac{\Omega_{\max}}{\kappa}
-$$
-
-Marginal stability at |∇θ| = Ω_max / κ.
-
-## 5. Rotation Curves
-
-**Newtonian**: v ∝ r^{-1/2}  
-**MOND**: v ∝ r^{1/4} (flat at large r)  
-**NFW**: v ≈ constant for r ≫ r_s  
-
-**TCWT**: v(r) ≈ √(α / R(r))  
-R(r) grows slower than linear (foam correction) → flattens at large r (controlled by β and d).
-
-Matches real data (NGC 3198) without extra particles.
-
-## 6. Decoherence & Visibility
-
-V = exp(−σ |λ|), σ = κ / Ω_max ≈ 6.58 × 10^{-36} m/rad.
-
-Regimes:
-- |λ| ≪ Ω_max / κ → V ≈ 1  
-- |λ| ≈ Ω_max / κ → V ≈ 0.37  
-- |λ| ≫ Ω_max / κ → V ≪ 1 (phase-opaque)
-
-Decoherence threshold at Ω_max.
-
-## 7. Dark Matter as Phase-Opaque Knots
-
-Opacity |∇θ| ≥ Ω_max / κ produces realistic halos:
-- Density ∝ 1/r (log accumulation)  
-- Sharp core-halo transition  
-- Flat rotation curves
-
-- # The $\Omega$-Cap as a UV/IR Regulator
-
-This document addresses the "Renormalization" of TCWT and how it avoids the infinite energy divergences found in standard Quantum Field Theory (QFT).
-
-## 1. The Ultraviolet (UV) Cutoff
-Standard gravity theories suffer from UV divergences at small scales (singularities). TCWT avoids this via the **$\Omega$-cap potential**:
-
-$$V_{\text{cap}} = -\frac{\lambda}{4} \left( \max(\Omega, \Omega_{\max})^2 - \Omega_{\max}^2 \right)^2$$
-
-Because the informational drag $\Omega$ cannot exceed $\Omega_{\max}$, the phase gradient $\lambda$ is naturally capped. This imposes a **dynamical UV cutoff** on the path integral $Z$:
-
-$$Z = \int \mathcal{D}\mu[\theta] \exp(i S)$$
-
-The measure $\mathcal{D}\mu[\theta]$ is suppressed by the Visibility Floor $V = \exp(-\sigma |\lambda|)$ as $\lambda \to \Omega_{\max}/\kappa$.
-
-## 2. Convergence of the Fractal Measure
-The sum over topologies in the fractal foam ($\mathcal{D}_{\text{foam}}$) is kept finite by the Gaussian weight $w_n(\lambda_n)$:
-
-$$w_n(\lambda_n) = \exp\left( -\frac{|\lambda_n|^2}{2\sigma^2} \right)$$
-
-This ensures that the "tangles" in the knot network cannot become infinitely complex. The theory is **self-regulating**; we do not need to manually insert a Planck scale, as the scale emerges from the $\Omega_{\max}$ stability threshold.
-
-## 3. Resolution of Singularities
-In TCWT, a "Black Hole" is not a point of infinite density. It is a **Finite Fractal Soliton** where the internal phase has reached the $\Omega_{\max}$ saturation point, resulting in a stable, phase-opaque core with radius $R \geq R_{\text{crit}}$.
-
-
-
-## 5. Solar Flare Precursor
-
-δf/f ≈ β · δθ ≈ 10^{-18}–10^{-17}  
-Within reach of NIST/FOCS during Solar Cycle 25 max.
-
-## 6. Empirical Challenges & Resolutions
-
-### 6.1 WEP (MICROSCOPE)
-
-Test bodies follow geodesics in emergent metric — acceleration depends only on background λ, not internal composition.  
-WEP recovered. Residual violation suppressed ≪ 10^{-15}.
-
-### 6.2 Binary Pulsar Drag
-
-Phase-viscosity and Ω-drag suppressed in vacuum (low gradients) → extra loss < 0.003 × GR.  
-No conflict with Hulse–Taylor.
-
-### 6.3 CMB Isotropy
-
-Hum is scalar phase oscillation — no vector flow, no preferred frame.  
-No extra dipole. Consistent with Planck.
-
-### 6.4 Spacecraft Anomalies (Parker/Juno)
-
-Smooth Gaussian barrier → Δa < 10^{-10} m/s² (below tracking precision).  
-No detectable jumps.
-
-Theory survives major empirical tests.
-
-# TCWT Field Equations 
-
-Starting from the TCWT Lagrangian density:
-
-L = C₀ (θ̇ − Ω)²
-  + κ (θ′)²
-  + α ( Ġ − θ″ )²
-  − (μ/2)( Ω − κ|θ′| )²
-  − VΩ(Ω)
-
-we vary with respect to θ, Ω, and G.
+# TCWT Lagrangian Formulation
+### Corrected Field Theory Formulation
+
+Version: 2026.5  
+Author: A. Gibson  
+Revision: mathematical consistency update
 
 ---
 
-## 1. Field Equation for the Phase Field θ
+# 1. Core Fields
 
-∂/∂t [ 2 C₀ (θ̇ − Ω) ]
- − ∂/∂ℓ [ 2 κ θ′ − 2 α ( Ġ − θ″ )′ ]
- = μ κ sgn(θ′) ( Ω − κ |θ′| )
+TCWT is formulated in terms of three scalar fields defined on an emergent spacetime manifold in the low-energy limit.
 
-This is the core TCWT wave equation.  
-It contains:
-- intrinsic time derivative  
-- intrinsic spatial derivative  
-- ghost‑coupling curvature term  
-- phase‑bleed constraint  
-- Ω‑cap restoring force  
+| Field | Meaning |
+|------|--------|
+| $\theta(x,t)$ | temporal phase field |
+| $G(x,t)$ | ghost / leakage field |
+| $\Omega(x,t)$ | informational drag density |
 
----
+Derived quantity:
 
-## 2. Field Equation for the Informational Density Ω
+$$
+\lambda = \nabla \theta
+$$
 
-− 2 C₀ (θ̇ − Ω)
-− μ ( Ω − κ |θ′| )
-− ∂VΩ/∂Ω
-= 0
-
-This enforces:
-- the Ω‑cap  
-- the visibility floor  
-- the matching condition Ω ≈ κ|θ′|  
-- the drag term responsible for dark‑matter‑like behaviour  
+which represents the **phase gradient responsible for gravitational acceleration**.
 
 ---
 
-## 3. Field Equation for the Ghost Field G
+# 2. Lagrangian Density
 
-∂/∂t [ 2 α ( Ġ − θ″ ) ] = 0
+The TCWT Lagrangian density is
 
-Low‑energy limit:
+$$
+\mathcal{L}
+=
+C_0(\dot{\theta}-\Omega)^2
++
+\kappa (\nabla\theta)^2
++
+\alpha (\dot G - \nabla^2 \theta)^2
+-
+V_{\Omega}(\Omega)
+$$
 
-Ġ ≈ θ″
+where
 
-This produces:
-- ghost‑leakage  
-- dark‑energy‑like behaviour  
-- reionization‑locked acceleration  
+| Parameter | Meaning |
+|----------|--------|
+| $C_0$ | temporal coherence coefficient |
+| $\kappa$ | spatial phase stiffness |
+| $\alpha$ | ghost-coupling strength |
+
+The Ω-cap potential limits informational drag:
+
+$$
+V_{\Omega}(\Omega)
+=
+\frac{\lambda_\Omega}{4}
+(\Omega^2-\Omega_{max}^2)^2
+$$
+
+This prevents runaway gradients.
 
 ---
 
-## 4. Constraint Equation from the Ω‑cap Term
+# 3. Action
 
-Ω = κ |θ′|        (when Ω < Ω_max)
+The action is
 
-Ω = Ω_max        (when the cap is saturated)
+$$
+S =
+\int \mathcal{L}\, d^3x\, dt
+$$
 
-This is the phase‑bleed matching condition.  
-It generates:
-- the stripping peak  
-- the coherence minimum  
-- the Mercury parking radius  
-- the λ(r) landscape
+Stationary action condition:
 
-- # TCWT Derivation: Emergence of the Einstein Tensor
+$$
+\delta S = 0
+$$
 
-This document provides the formal mathematical bridge from the TCWT Pregeometric Action to the Einstein Field Equations (EFE) of General Relativity.
+which yields the field equations.
 
-## 1. The Induced Metric and Vielbein Mapping
-In TCWT, spacetime is an effective construct. We define the emergent metric $g_{\mu\nu}$ via a Vielbein (tetrad) $e^a_\mu$ that maps intrinsic phase advances to a Lorentzian manifold:
+---
 
-$$g_{\mu\nu} = \eta_{ab} e^a_\mu e^b_\nu$$
+# 4. Euler–Lagrange Equations
 
-Where the temporal component is governed by the Hum-flow ($\Omega$) and spatial components by the gradient ($\lambda$):
-$$e^0_\mu = \frac{\partial_\mu \theta}{\Omega}, \quad e^i_\mu = \frac{\partial_\mu \theta}{\lambda}$$
+For a field $\phi$:
 
-## 2. Variational Principle
-To find the effective gravitational equations, we vary the TCWT action $S$ with respect to the emergent metric $g^{\mu\nu}$ using the chain rule:
+$$
+\frac{\partial \mathcal L}{\partial \phi}
+-
+\partial_\mu
+\left(
+\frac{\partial \mathcal L}{\partial(\partial_\mu \phi)}
+\right)
++
+\partial_\mu\partial_\nu
+\left(
+\frac{\partial \mathcal L}{\partial(\partial_\mu\partial_\nu \phi)}
+\right)
+=0
+$$
 
-$$\frac{\delta S}{\delta g^{\mu\nu}} = \frac{\delta S}{\delta \theta} \cdot \frac{\delta \theta}{\delta g^{\mu\nu}}$$
+---
 
-In the low-energy limit ($|\lambda| \ll \Omega_{\max}$), the Lagrangian density $\mathcal{L}$ simplifies to a kinetic K-essence form. The variation yields:
+# 5. Phase Field Equation
 
-$$T_{\mu\nu}^{\theta} = \kappa \left( \partial_\mu \theta \partial_\nu \theta - \frac{1}{2} g_{\mu\nu} g^{\alpha\beta} \partial_\alpha \theta \partial_\beta \theta \right)$$
+Applying the Euler–Lagrange equation to $\theta$ gives
 
-## 3. Correspondence to General Relativity
-By identifying the effective gravitational constant $G_{\text{eff}} \approx \frac{1}{8\pi \kappa}$, we recover the Einstein Tensor $G_{\mu\nu}$:
+$$
+\partial_t
+\big[2C_0(\dot\theta-\Omega)\big]
+-
+\nabla\!\cdot
+\big[2\kappa\nabla\theta\big]
++
+\nabla^2
+\big[2\alpha(\dot G-\nabla^2\theta)\big]
+=
+0
+$$
 
-$$G_{\mu\nu} = 8\pi G_{\text{eff}} \left( T_{\mu\nu}^{\theta} + T_{\mu\nu}^{\text{ghost}} \right)$$
+This governs propagation of the **Hum phase field**.
 
-In this regime, the $\theta$-equation of motion satisfies the **Bianchi Identity**:
-$$\nabla^\mu G_{\mu\nu} = 0$$
+---
 
-This ensures that energy-momentum conservation is a natural consequence of the phase-flux stability in the Hum-flow.
+# 6. Ω Evolution Equation
 
-## 4. Resolution of the Vacuum Catastrophe
-The TCWT Pregeometric Lagrangian avoids the "Vacuum Catastrophe" by replacing the infinite Planck-cutoff with a finite **Ghost Mass ($m_G \approx 1.2 \times 10^{-33}$ eV)**.
+Variation with respect to $\Omega$ yields
 
-### The Leakage Regulator:
-In standard QFT, vacuum energy density ($\rho_{vac}$) diverges. In TCWT, $\rho_{vac}$ is the **Ghost Leakage Residue**:
-$$\rho_{vac} = \frac{1}{2} m_G^2 G^2 \approx \rho_{\text{observed}}$$
+$$
+-2C_0(\dot\theta-\Omega)
+-
+\frac{dV_\Omega}{d\Omega}
+=
+0
+$$
 
-Because $m_G$ is inversely proportional to the temporal coherence $\sqrt{C_0}$, the "fluidity" of the Hum-flow ($C_0 \approx 0.059$) ensures that the vacuum pressure remains small and stable. This provides a shared genesis for **Dark Matter** (Phase-Opaque Knots) and **Dark Energy** (Ghost Leakage), cancelling the 120-order-of-magnitude discrepancy found in traditional models.
+Low-energy regime (cap inactive):
 
+$$
+\Omega \approx \dot{\theta}
+$$
 
+Thus the auxiliary field tracks the temporal phase rate.
 
-# Summary
+---
 
-These four equations form the mathematical backbone of TCWT:
-- θ‑equation → Hum, λ(r), curvature, decoherence  
-- Ω‑equation → dark matter, drag, opacity  
-- G‑equation → dark energy, leakage  
-- Ω‑cap constraint → stable minima, stripping zones  
+# 7. Ghost Field Equation
 
+Variation with respect to $G$ produces
 
+$$
+\partial_t
+\big[2\alpha(\dot G - \nabla^2 \theta)\big]
+=
+0
+$$
+
+Low-energy limit:
+
+$$
+\dot G \approx \nabla^2 \theta
+$$
+
+The ghost field therefore acts as a **leakage regulator for phase curvature**.
+
+---
+
+# 8. Effective Gravitational Acceleration
+
+The phase gradient generates acceleration:
+
+$$
+a = -\chi \nabla \theta
+$$
+
+with coupling constant
+
+$$
+\chi =
+\frac{c^2 \kappa}{C_0 \Omega_{max}}
+$$
+
+This connects the **field theory to orbital dynamics**.
+
+---
+
+# 9. Noether Current
+
+The Lagrangian is invariant under the global phase shift
+
+$$
+\theta \rightarrow \theta + \epsilon
+$$
+
+The Noether current is
+
+$$
+J^\mu
+=
+\frac{\partial \mathcal L}{\partial(\partial_\mu \theta)}
+$$
+
+Temporal component:
+
+$$
+J^0 = 2C_0(\dot\theta-\Omega)
+$$
+
+Spatial component:
+
+$$
+\vec J = 2\kappa \nabla \theta
+$$
+
+Conservation law:
+
+$$
+\partial_\mu J^\mu = 0
+$$
+
+This expresses **conservation of global phase flux**.
+
+---
+
+# 10. Hamiltonian Density
+
+Canonical momenta:
+
+$$
+\pi_\theta = 2C_0(\dot\theta-\Omega)
+$$
+
+$$
+\pi_G = 2\alpha(\dot G-\nabla^2\theta)
+$$
+
+Hamiltonian density:
+
+$$
+\mathcal H
+=
+\pi_\theta \dot\theta
++
+\pi_G \dot G
+-
+\mathcal L
+$$
+
+which simplifies to
+
+$$
+\mathcal H =
+C_0(\dot\theta-\Omega)^2
++
+\kappa (\nabla\theta)^2
++
+\alpha(\dot G-\nabla^2\theta)^2
++
+V_\Omega(\Omega)
+$$
+
+All terms are non-negative:
+
+$$
+\mathcal H \ge 0
+$$
+
+ensuring **vacuum stability**.
+
+---
+
+# 11. Low-Energy Limit
+
+In vacuum:
+
+$$
+\Omega \rightarrow 0
+$$
+
+$$
+G \rightarrow 0
+$$
+
+The phase equation reduces to
+
+$$
+C_0 \ddot\theta
+-
+\kappa \nabla^2 \theta
+=
+0
+$$
+
+This is a wave equation:
+
+$$
+\ddot\theta - c_{eff}^2 \nabla^2\theta = 0
+$$
+
+with effective speed
+
+$$
+c_{eff} = \sqrt{\kappa/C_0}
+$$
+
+Identifying
+
+$$
+c_{eff} = c
+$$
+
+yields the emergent Lorentz-invariant limit.
+
+---
+
+# 12. Physical Interpretation
+
+| Field | Interpretation |
+|------|---------------|
+| $\theta$ | background Hum phase |
+| $\Omega$ | informational drag |
+| $G$ | ghost leakage / vacuum relaxation |
+
+Gravity emerges because **phase gradients accelerate knots embedded in the field**.
+
+---
+
+# 13. Connection to Orbital Dynamics
+
+The orbital mechanics document derives
+
+$$
+\lambda = \frac{v^2}{\chi r}
+$$
+
+which determines the phase field around astrophysical objects.
+
+This connects the **microscopic Lagrangian** to **macroscopic gravitational motion**.
+
+---
+
+# 14. Summary
+
+The TCWT field theory consists of
+
+- phase field $\theta$
+- auxiliary drag field $\Omega$
+- ghost leakage field $G$
+
+governed by the Lagrangian
+
+$$
+\mathcal L =
+C_0(\dot{\theta}-\Omega)^2
++
+\kappa (\nabla\theta)^2
++
+\alpha (\dot G - \nabla^2\theta)^2
+-
+V_\Omega(\Omega)
+$$
+
+Key consequences:
+
+- wave-like propagation of the phase field  
+- conserved phase current  
+- bounded energy density  
+- emergent gravitational acceleration  
+
+$$
+a = -\chi \nabla\theta
+$$
+
+which reproduces Newtonian gravity in the appropriate limit.
